@@ -5,7 +5,12 @@ public class ScuffedDragon : MonoBehaviour
 
     [SerializeField] private int hitpoints = 2;
     public GameObject fireballPrefab;
+    GameManager gameManager;
 
+    private void Awake()
+    {
+        gameManager = FindAnyObjectByType<GameManager>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -31,6 +36,7 @@ public class ScuffedDragon : MonoBehaviour
     }
     void HandleDestruction()
     {
+        gameManager.GameLost();
         Destroy(gameObject);
     }
 }

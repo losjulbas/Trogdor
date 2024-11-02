@@ -16,12 +16,14 @@ public class Village : MonoBehaviour, IDamageable
     public Sprite destroyedVillage;
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider;
+    ScoreManager scoreManager;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         boxCollider = GetComponent<BoxCollider2D>();
+        scoreManager = FindAnyObjectByType<ScoreManager>();
     }
 
     void Update()
@@ -40,10 +42,6 @@ public class Village : MonoBehaviour, IDamageable
             var newArrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
 
             timer -= tickTime; // “spend” one tickTime, don’t go to zero
-
-            //float x = transform.position.x;
-            //float y = transform.position.y;
-            //newArrow.transform.position = new Vector3(x, y, 0);
         }
     }
 
@@ -55,36 +53,39 @@ public class Village : MonoBehaviour, IDamageable
     }
     void IsPlayerVisible()
     {
-        Vector2 pos = scuffedDragon.transform.position;
 
-        // This checks if the player is within the detection radius
-        if (Vector2.Distance(transform.position, pos) > sightDistance)
+        // Check if scuffedDragon is null before accessing it
+        if (scuffedDragon == null)
         {
             return;
         }
-        else
+
+        // Get the dragon's collider
+        Collider2D dragonCollider = scuffedDragon.GetComponent<Collider2D>();
+
+        // Check if any part of the dragon's collider overlaps with the sight radius
+        if (Physics2D.OverlapCircle(transform.position, sightDistance, LayerMask.GetMask("Dragon")) == dragonCollider)
         {
             ShootArrow();
         }
-    
-    }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (hitpoints > 0)
-    //    {
-    //        hitpoints--;
-    //    }
-    //    if (hitpoints <= 0)
-    //    {
-    //        HandleDestruction();
-    //    }
-    //}
+
+
+        //Vector2 pos = scuffedDragon.transform.position;
+        //if (Vector2.Distance(transform.position, pos) > sightDistance)
+        //{
+        //    return;
+        //}
+        //else
+        //{
+        //    ShootArrow();
+        //}
+    }
 
     void HandleDestruction()
     {
         spriteRenderer.sprite = destroyedVillage;
-        this.enabled = false;
+        this.enabled = false; //disable this script
 
     }
 
@@ -93,6 +94,7 @@ public class Village : MonoBehaviour, IDamageable
         if (hitpoints > 0)
         {
             hitpoints -= amount;
+            scoreManager.AddScore(100);
         }
         if (hitpoints <= 0)
         {
