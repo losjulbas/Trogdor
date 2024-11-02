@@ -1,16 +1,24 @@
+using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] TMP_Text scoreText;
+    int score = 0;
+
+
+    public void AddScore(int toAdd)
     {
-        
+        score += toAdd;
+        UpdaScoreText();
     }
 
-    // Update is called once per frame
-    void Update()
+    void UpdaScoreText()
     {
-        
+
+
+        var paddedScore = score.ToString().PadLeft(8, '0');
+
+        scoreText.text = "Score:\n" + paddedScore; //+"\nHighscore: " + paddedHighScore;
     }
 }

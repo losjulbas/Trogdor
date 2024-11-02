@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 using static UnityEditor.Experimental.GraphView.GraphView;
 using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
-public class Village : MonoBehaviour
+public class Village : MonoBehaviour, IDamageable
 {
 
     public float tickTime = 2f;
@@ -10,10 +11,17 @@ public class Village : MonoBehaviour
     public GameObject arrowPrefab;
     [SerializeField] float sightDistance;
     ScuffedDragon scuffedDragon;
+    [SerializeField] private int hitpoints = 2;
+    public Sprite undestroyedVillage;
+    public Sprite destroyedVillage;
+    SpriteRenderer spriteRenderer;
+    BoxCollider2D boxCollider;
 
     void Awake()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     void Update()
@@ -59,5 +67,36 @@ public class Village : MonoBehaviour
             ShootArrow();
         }
     
+    }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (hitpoints > 0)
+    //    {
+    //        hitpoints--;
+    //    }
+    //    if (hitpoints <= 0)
+    //    {
+    //        HandleDestruction();
+    //    }
+    //}
+
+    void HandleDestruction()
+    {
+        spriteRenderer.sprite = destroyedVillage;
+        this.enabled = false;
+
+    }
+
+    public void TakeDamage(int amount)
+    {
+        if (hitpoints > 0)
+        {
+            hitpoints -= amount;
+        }
+        if (hitpoints <= 0)
+        {
+            HandleDestruction();
+        }
     }
 }

@@ -12,7 +12,7 @@ public class Arrow : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
-        ShootLaser();
+        ShootArrow();
     }
 
     void Update()
@@ -20,7 +20,7 @@ public class Arrow : MonoBehaviour
         
     }
 
-    void ShootLaser()
+    void ShootArrow()
     {
         //Vector2 velocity = _direction.normalized * speed;
         //rb.linearVelocity = velocity;  // Ensure proper velocity setup
@@ -39,6 +39,7 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         Destroy(gameObject);
     }
 }
