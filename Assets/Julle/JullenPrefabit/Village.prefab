@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.07, z: 0}
-  m_LocalScale: {x: 5.55, y: 2.42, z: 1}
+  m_LocalScale: {x: 1.07, y: 0.37, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -149,4 +149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tickTime: 2
   arrowPrefab: {fileID: 3495837827112988055, guid: bd3977575f6e073469258c065368db7c, type: 3}
-  sightDistance: 4
+  sightDistance: 3.38
+  hitpoints: 2
+  undestroyedVillage: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  destroyedVillage: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
+  soulEffectPrefab: {fileID: 0}
