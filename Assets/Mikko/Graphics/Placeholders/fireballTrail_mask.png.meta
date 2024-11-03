@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fireballTrail_mask_0: -8158376890789098424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

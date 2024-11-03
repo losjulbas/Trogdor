@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 0236e24769b65914fb50b24a4f0466e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4041466483234844837
+    second: tuhoutunut torni_0
+  - first:
+      213: 4408752124634470682
+    second: tuhoutunut torni_1
+  - first:
+      213: 4656202341544952695
+    second: tuhoutunut torni_2
+  - first:
+      213: -4555990630824043606
+    second: tuhoutunut torni_3
+  - first:
+      213: -5743638902838999635
+    second: tuhoutunut torni_4
+  - first:
+      213: 2426589118145766928
+    second: tuhoutunut torni_5
+  - first:
+      213: 4475803303368503649
+    second: tuhoutunut torni_6
+  - first:
+      213: -6442912737773985834
+    second: tuhoutunut torni_7
+  - first:
+      213: -5631321633253495961
+    second: tuhoutunut torni_8
+  - first:
+      213: -336777099341672407
+    second: tuhoutunut torni_9
+  - first:
+      213: -5835642506481611435
+    second: tuhoutunut torni_10
+  - first:
+      213: 8732538141849215578
+    second: tuhoutunut torni_11
+  - first:
+      213: -5186630566806717587
+    second: tuhoutunut torni_12
+  - first:
+      213: -9068610181220902039
+    second: tuhoutunut torni_13
+  - first:
+      213: -2239322529397309220
+    second: tuhoutunut torni_14
+  - first:
+      213: 4397235795497062317
+    second: tuhoutunut torni_15
+  - first:
+      213: -1148260933177900941
+    second: tuhoutunut torni_16
+  - first:
+      213: -5640422473405189477
+    second: tuhoutunut torni_17
+  - first:
+      213: 2463576411076089728
+    second: tuhoutunut torni_18
+  - first:
+      213: -5389886618281824802
+    second: tuhoutunut torni_19
+  - first:
+      213: -6882484152189323867
+    second: tuhoutunut torni_20
+  - first:
+      213: 4034500831197314818
+    second: tuhoutunut torni_21
+  - first:
+      213: 8020888388423091553
+    second: tuhoutunut torni_22
+  - first:
+      213: -7228803839065475841
+    second: tuhoutunut torni_23
+  - first:
+      213: 934281825900209617
+    second: tuhoutunut torni_24
+  - first:
+      213: 7603529068766821280
+    second: tuhoutunut torni_25
+  - first:
+      213: 6711139220940946123
+    second: tuhoutunut torni_26
+  - first:
+      213: -5601749008992522684
+    second: tuhoutunut torni_27
+  - first:
+      213: -6668991066205592532
+    second: tuhoutunut torni_28
+  - first:
+      213: 6645929307839460840
+    second: tuhoutunut torni_29
+  - first:
+      213: -2172067864972043659
+    second: tuhoutunut torni_30
+  - first:
+      213: -6594157325568030067
+    second: tuhoutunut torni_31
+  - first:
+      213: -7643082638295206262
+    second: tuhoutunut torni_32
+  - first:
+      213: 2847345741050872367
+    second: tuhoutunut torni_33
+  - first:
+      213: -3703697974024901811
+    second: tuhoutunut torni_34
+  - first:
+      213: -1684518507212858014
+    second: tuhoutunut torni_35
+  - first:
+      213: -5523361470292601777
+    second: tuhoutunut torni_36
+  - first:
+      213: -3831101430551419389
+    second: tuhoutunut torni_37
+  - first:
+      213: -113376428267319879
+    second: tuhoutunut torni_38
+  - first:
+      213: -3786623210176446341
+    second: tuhoutunut torni_39
+  - first:
+      213: -2031722226841980989
+    second: tuhoutunut torni_40
+  - first:
+      213: 5591780421131758306
+    second: tuhoutunut torni_41
+  - first:
+      213: 5721882823077857488
+    second: tuhoutunut torni_42
+  - first:
+      213: -4556389236624662813
+    second: tuhoutunut torni_43
+  - first:
+      213: -2910886911399593598
+    second: tuhoutunut torni_44
+  - first:
+      213: -1533942419291077613
+    second: tuhoutunut torni_45
+  - first:
+      213: -1127504600892613681
+    second: tuhoutunut torni_46
+  - first:
+      213: 6937061339347192784
+    second: tuhoutunut torni_47
+  - first:
+      213: -4408180514841300750
+    second: tuhoutunut torni_48
+  - first:
+      213: 4051779228225126412
+    second: tuhoutunut torni_49
+  - first:
+      213: 4304482488192707743
+    second: tuhoutunut torni_50
+  - first:
+      213: -4334671792569968440
+    second: tuhoutunut torni_51
+  - first:
+      213: -8416604341625859910
+    second: tuhoutunut torni_52
+  - first:
+      213: 2732718558585007769
+    second: tuhoutunut torni_53
+  - first:
+      213: 2857120879868873300
+    second: tuhoutunut torni_54
+  - first:
+      213: 4594684793327379523
+    second: tuhoutunut torni_55
+  - first:
+      213: -3759505137667031400
+    second: tuhoutunut torni_56
+  - first:
+      213: 6907116439023865561
+    second: tuhoutunut torni_57
+  - first:
+      213: -6454581308014454730
+    second: tuhoutunut torni_58
+  - first:
+      213: -2108109740557159121
+    second: tuhoutunut torni_59
+  - first:
+      213: 7430860461524809351
+    second: tuhoutunut torni_60
+  - first:
+      213: 7747117734242056516
+    second: tuhoutunut torni_61
+  - first:
+      213: 309661150212529346
+    second: tuhoutunut torni_62
+  - first:
+      213: 488921351579637490
+    second: tuhoutunut torni_63
+  - first:
+      213: 5733181290653974825
+    second: tuhoutunut torni_64
+  - first:
+      213: 353819163320866431
+    second: tuhoutunut torni_65
+  - first:
+      213: -1415900238282176524
+    second: tuhoutunut torni_66
+  - first:
+      213: -5912813860385018990
+    second: tuhoutunut torni_67
+  - first:
+      213: 7538026606787269581
+    second: tuhoutunut torni_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tuhoutunut torni_0
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2970
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a03cd89a5c261830800000000000000
+      internalID: 4041466483234844837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_1
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 3000
+        width: 121
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191693e2b80f2d30800000000000000
+      internalID: 4408752124634470682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_2
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2984
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773012a2c572e9040800000000000000
+      internalID: 4656202341544952695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_3
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 2784
+        width: 259
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab99b1f8aed5c0c0800000000000000
+      internalID: -4555990630824043606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_4
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 2987
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5ca2659de7a40b0800000000000000
+      internalID: -5743638902838999635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_5
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 2974
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01628e242f9fca120800000000000000
+      internalID: 2426589118145766928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_6
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2530
+        width: 193
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161bccdf36f3d1e30800000000000000
+      internalID: 4475803303368503649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_7
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2967
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df5422400d2696a0800000000000000
+      internalID: -6442912737773985834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_8
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2955
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76be3f18fc689d1b0800000000000000
+      internalID: -5631321633253495961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_9
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 2934
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920d0413307835bf0800000000000000
+      internalID: -336777099341672407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_10
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2905
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d4ef41f02a30fa0800000000000000
+      internalID: -5835642506481611435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_11
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2591
+        width: 229
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52e87c4c25303970800000000000000
+      internalID: 8732538141849215578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_12
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2894
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b7d4cbaf26508b0800000000000000
+      internalID: -5186630566806717587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_13
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2898
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b56d57613d52280800000000000000
+      internalID: -9068610181220902039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2883
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd08eb126045ce0e0800000000000000
+      internalID: -2239322529397309220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_15
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 2825
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf0c3098ae160d30800000000000000
+      internalID: 4397235795497062317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_16
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2825
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3700978d3ce8010f0800000000000000
+      internalID: -1148260933177900941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_17
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2809
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92bd8905a139b1b0800000000000000
+      internalID: -5640422473405189477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_18
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 2819
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087d83b71b1603220800000000000000
+      internalID: 2463576411076089728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_19
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2826
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd2ea17da64335b0800000000000000
+      internalID: -5389886618281824802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_20
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2814
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5ff78e0218c70a0800000000000000
+      internalID: -6882484152189323867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_21
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2816
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fb889512d6df730800000000000000
+      internalID: 4034500831197314818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_22
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2822
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16583072e7bef4f60800000000000000
+      internalID: 8020888388423091553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_23
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2821
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4b58d45312eab90800000000000000
+      internalID: -7228803839065475841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_24
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2816
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5a2e0ee5c37fc00800000000000000
+      internalID: 934281825900209617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_25
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2826
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abf33f1769258960800000000000000
+      internalID: 7603529068766821280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_26
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2796
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca70667091c22d50800000000000000
+      internalID: 6711139220940946123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_27
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2810
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eaa16a4f69242b0800000000000000
+      internalID: -5601749008992522684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2805
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24ef8885fbf273a0800000000000000
+      internalID: -6668991066205592532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_29
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2813
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5f02c6e751b3c50800000000000000
+      internalID: 6645929307839460840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_30
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 2818
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57adc40f8c34bd1e0800000000000000
+      internalID: -2172067864972043659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_31
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 2805
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a4a7889d8dc74a0800000000000000
+      internalID: -6594157325568030067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_32
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2800
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a867573d5d05ee590800000000000000
+      internalID: -7643082638295206262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_33
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2810
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f220f089dddc38720800000000000000
+      internalID: 2847345741050872367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_34
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 2790
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b69eec052d99cc0800000000000000
+      internalID: -3703697974024901811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_35
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2799
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d9108b7536f98e0800000000000000
+      internalID: -1684518507212858014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_36
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2784
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44512db1041953b0800000000000000
+      internalID: -5523361470292601777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_37
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 2797
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306ed750c8135dac0800000000000000
+      internalID: -3831101430551419389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_38
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2795
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd493b3db43d6ef0800000000000000
+      internalID: -113376428267319879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_39
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2776
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b700f23b046337bc0800000000000000
+      internalID: -3786623210176446341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_40
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2760
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf61d2366fddc3e0800000000000000
+      internalID: -2031722226841980989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_41
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2765
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaea8f9aaef99d40800000000000000
+      internalID: 5591780421131758306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_42
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 2783
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d807fb9c16386f40800000000000000
+      internalID: 5721882823077857488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_43
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2773
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed29c412474c0c0800000000000000
+      internalID: -4556389236624662813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_44
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 2774
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28971b0d6c37a97d0800000000000000
+      internalID: -2910886911399593598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_45
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2741
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31480403f7756bae0800000000000000
+      internalID: -1533942419291077613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_46
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2753
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb5d2d0a8c4a50f0800000000000000
+      internalID: -1127504600892613681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_47
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 2696
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db82e4b884654060800000000000000
+      internalID: 6937061339347192784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_48
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2722
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f5136d2ff2d2c0800000000000000
+      internalID: -4408180514841300750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_49
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2708
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c004aa6adbfca3830800000000000000
+      internalID: 4051779228225126412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_50
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2695
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cad9254089cbb30800000000000000
+      internalID: 4304482488192707743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_51
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2687
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c816f188f628d3c0800000000000000
+      internalID: -4334671792569968440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_52
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2625
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab05162c1f6323b80800000000000000
+      internalID: -8416604341625859910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_53
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 2493
+        width: 77
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ea39bec019ce520800000000000000
+      internalID: 2732718558585007769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_54
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2356
+        width: 288
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a8fe47d4886a720800000000000000
+      internalID: 2857120879868873300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_55
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2385
+        width: 251
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344ea21d97993cf30800000000000000
+      internalID: 4594684793327379523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_56
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 2432
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb91afefd83dbc0800000000000000
+      internalID: -3759505137667031400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_57
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 2354
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de474a4ec10bdf50800000000000000
+      internalID: 6907116439023865561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_58
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 2361
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6381ce98f78bc66a0800000000000000
+      internalID: -6454581308014454730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_59
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2361
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25bc863c5d7eb2e0800000000000000
+      internalID: -2108109740557159121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_60
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2301
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7867ea82838bf1760800000000000000
+      internalID: 7430860461524809351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_61
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2254
+        width: 78
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44970a6888a438b60800000000000000
+      internalID: 7747117734242056516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_62
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2301
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc182bec232c4400800000000000000
+      internalID: 309661150212529346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_63
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 2260
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6120cf06ff8c600800000000000000
+      internalID: 488921351579637490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_64
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2216
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9218856120a509f40800000000000000
+      internalID: 5733181290653974825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_65
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 2202
+        width: 197
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76577887a409e400800000000000000
+      internalID: 353819163320866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_66
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 998
+        width: 923
+        height: 1211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7cccb2c36b95ce0800000000000000
+      internalID: -1415900238282176524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_67
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 2205
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29baeb41f1771fda0800000000000000
+      internalID: -5912813860385018990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut torni_68
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 2204
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc39ffcb2437c9860800000000000000
+      internalID: 7538026606787269581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tuhoutunut torni_0: 4041466483234844837
+      tuhoutunut torni_1: 4408752124634470682
+      tuhoutunut torni_10: -5835642506481611435
+      tuhoutunut torni_11: 8732538141849215578
+      tuhoutunut torni_12: -5186630566806717587
+      tuhoutunut torni_13: -9068610181220902039
+      tuhoutunut torni_14: -2239322529397309220
+      tuhoutunut torni_15: 4397235795497062317
+      tuhoutunut torni_16: -1148260933177900941
+      tuhoutunut torni_17: -5640422473405189477
+      tuhoutunut torni_18: 2463576411076089728
+      tuhoutunut torni_19: -5389886618281824802
+      tuhoutunut torni_2: 4656202341544952695
+      tuhoutunut torni_20: -6882484152189323867
+      tuhoutunut torni_21: 4034500831197314818
+      tuhoutunut torni_22: 8020888388423091553
+      tuhoutunut torni_23: -7228803839065475841
+      tuhoutunut torni_24: 934281825900209617
+      tuhoutunut torni_25: 7603529068766821280
+      tuhoutunut torni_26: 6711139220940946123
+      tuhoutunut torni_27: -5601749008992522684
+      tuhoutunut torni_28: -6668991066205592532
+      tuhoutunut torni_29: 6645929307839460840
+      tuhoutunut torni_3: -4555990630824043606
+      tuhoutunut torni_30: -2172067864972043659
+      tuhoutunut torni_31: -6594157325568030067
+      tuhoutunut torni_32: -7643082638295206262
+      tuhoutunut torni_33: 2847345741050872367
+      tuhoutunut torni_34: -3703697974024901811
+      tuhoutunut torni_35: -1684518507212858014
+      tuhoutunut torni_36: -5523361470292601777
+      tuhoutunut torni_37: -3831101430551419389
+      tuhoutunut torni_38: -113376428267319879
+      tuhoutunut torni_39: -3786623210176446341
+      tuhoutunut torni_4: -5743638902838999635
+      tuhoutunut torni_40: -2031722226841980989
+      tuhoutunut torni_41: 5591780421131758306
+      tuhoutunut torni_42: 5721882823077857488
+      tuhoutunut torni_43: -4556389236624662813
+      tuhoutunut torni_44: -2910886911399593598
+      tuhoutunut torni_45: -1533942419291077613
+      tuhoutunut torni_46: -1127504600892613681
+      tuhoutunut torni_47: 6937061339347192784
+      tuhoutunut torni_48: -4408180514841300750
+      tuhoutunut torni_49: 4051779228225126412
+      tuhoutunut torni_5: 2426589118145766928
+      tuhoutunut torni_50: 4304482488192707743
+      tuhoutunut torni_51: -4334671792569968440
+      tuhoutunut torni_52: -8416604341625859910
+      tuhoutunut torni_53: 2732718558585007769
+      tuhoutunut torni_54: 2857120879868873300
+      tuhoutunut torni_55: 4594684793327379523
+      tuhoutunut torni_56: -3759505137667031400
+      tuhoutunut torni_57: 6907116439023865561
+      tuhoutunut torni_58: -6454581308014454730
+      tuhoutunut torni_59: -2108109740557159121
+      tuhoutunut torni_6: 4475803303368503649
+      tuhoutunut torni_60: 7430860461524809351
+      tuhoutunut torni_61: 7747117734242056516
+      tuhoutunut torni_62: 309661150212529346
+      tuhoutunut torni_63: 488921351579637490
+      tuhoutunut torni_64: 5733181290653974825
+      tuhoutunut torni_65: 353819163320866431
+      tuhoutunut torni_66: -1415900238282176524
+      tuhoutunut torni_67: -5912813860385018990
+      tuhoutunut torni_68: 7538026606787269581
+      tuhoutunut torni_7: -6442912737773985834
+      tuhoutunut torni_8: -5631321633253495961
+      tuhoutunut torni_9: -336777099341672407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
