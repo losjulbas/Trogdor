@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2546713448773242451}
   - component: {fileID: 578928266751361071}
   - component: {fileID: 7250757665171125048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Velho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2920586938441767554}
   - component: {fileID: 6762590478657735786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "Nen\xE4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,10 +12,13 @@ public class ScuffedDragon : MonoBehaviour
     public float powerupDuration = 2f;
     float timer = 0f;
     PowerupType currentPowerup = PowerupType.None;
+    public GameObject armorPowerupSprite; // Reference to the armor sprite
+
 
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
+        armorPowerupSprite.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -68,12 +71,14 @@ public class ScuffedDragon : MonoBehaviour
         {
             print("Armor activated!");
             armorHitpoints += 10;
+            armorPowerupSprite.SetActive(true);
         }
     }
     void EndPowerup(PowerupType powerup)
     {
         print("Armor deactivated!");
         armorHitpoints = 0;
+        armorPowerupSprite.SetActive(false);
     }
 
     void HandleDestruction()

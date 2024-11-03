@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] TMP_Text gameOverText;
     ScuffedDragon scuffedDragon;
-    public List<PowerupType> paddlePowerups;
+    public List<PowerupType> powerups;
 
     private void Awake()
     {
