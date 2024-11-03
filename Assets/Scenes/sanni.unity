@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738114873}
   - component: {fileID: 1738114874}
+  - component: {fileID: 1738114875}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -255,11 +256,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b968802970b78849a5036d1202341a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trumpets: {fileID: 8300000, guid: 100ad5e3d1801a44c86b3260dd963ee0, type: 3}
-  Sheep: {fileID: 8300000, guid: bfb17590e2953444cb0117bbfd5cd89d, type: 3}
-  DragonSpitFire: {fileID: 8300000, guid: 02c216a07fac94d42a631e39f77419dd, type: 3}
-  DestroyedVillage: {fileID: 8300000, guid: 89a7d194ee06a984594fa8fb9df8e6a5, type: 3}
-  DeadDragon: {fileID: 8300000, guid: 22f8264738bf24342a73b6c6bb1453b4, type: 3}
+  Trumpets: {fileID: 8300000, guid: 449aa9c34d129e24bb8a3f9b4db94c31, type: 3}
+  Sheep: {fileID: 8300000, guid: 847b9a60ec20a4142a918b0ae475a6b3, type: 3}
+  DragonSpitFire: {fileID: 8300000, guid: 54e63a53d5308c945ade00b81c723247, type: 3}
+  DestroyedVillage: {fileID: 8300000, guid: 4bcafb0fba2a6244db9e67e0260c5aae, type: 3}
+  DeadDragon: {fileID: 8300000, guid: 765db08cf9503b543804cebeb7de6a1f, type: 3}
+--- !u!82 &1738114875
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738114872}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,0 +1,3445 @@
+fileFormatVersion: 2
+guid: 31545ff44e2105b4da50c5cf5ca4d0d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1777444736504699975
+    second: tuhoutunut linna_0
+  - first:
+      213: 3830462812636990468
+    second: tuhoutunut linna_1
+  - first:
+      213: 8556302304862380122
+    second: tuhoutunut linna_2
+  - first:
+      213: -5529411564422494485
+    second: tuhoutunut linna_3
+  - first:
+      213: -2127014658545098060
+    second: tuhoutunut linna_4
+  - first:
+      213: 2634874292017907499
+    second: tuhoutunut linna_5
+  - first:
+      213: -892050038288725757
+    second: tuhoutunut linna_6
+  - first:
+      213: 125105442605172686
+    second: tuhoutunut linna_7
+  - first:
+      213: 3024698852991737874
+    second: tuhoutunut linna_8
+  - first:
+      213: 2866453949547641105
+    second: tuhoutunut linna_9
+  - first:
+      213: 8256911935128924345
+    second: tuhoutunut linna_10
+  - first:
+      213: -2284299761253837880
+    second: tuhoutunut linna_11
+  - first:
+      213: 8899907161766876044
+    second: tuhoutunut linna_12
+  - first:
+      213: 5106684591238435333
+    second: tuhoutunut linna_13
+  - first:
+      213: -5334115333978797293
+    second: tuhoutunut linna_14
+  - first:
+      213: 5820148244238921765
+    second: tuhoutunut linna_15
+  - first:
+      213: -978290289229850099
+    second: tuhoutunut linna_16
+  - first:
+      213: 721484385326547066
+    second: tuhoutunut linna_17
+  - first:
+      213: -6277465193124961401
+    second: tuhoutunut linna_18
+  - first:
+      213: 4137360966171216961
+    second: tuhoutunut linna_19
+  - first:
+      213: -5609124522925316415
+    second: tuhoutunut linna_20
+  - first:
+      213: -622248643951835031
+    second: tuhoutunut linna_21
+  - first:
+      213: 4815455771452696735
+    second: tuhoutunut linna_22
+  - first:
+      213: 1155722088664718698
+    second: tuhoutunut linna_23
+  - first:
+      213: 4034718281716127508
+    second: tuhoutunut linna_24
+  - first:
+      213: -3448609779690668529
+    second: tuhoutunut linna_25
+  - first:
+      213: -4693908016263013220
+    second: tuhoutunut linna_26
+  - first:
+      213: 3309575290814860257
+    second: tuhoutunut linna_27
+  - first:
+      213: -1303380303687566423
+    second: tuhoutunut linna_28
+  - first:
+      213: -1963856335714535470
+    second: tuhoutunut linna_29
+  - first:
+      213: -3524252431012609716
+    second: tuhoutunut linna_30
+  - first:
+      213: -7821049241478844223
+    second: tuhoutunut linna_31
+  - first:
+      213: -7318103841126862527
+    second: tuhoutunut linna_32
+  - first:
+      213: -5510372117607672652
+    second: tuhoutunut linna_33
+  - first:
+      213: -7278569687775321176
+    second: tuhoutunut linna_34
+  - first:
+      213: 3546833344381942318
+    second: tuhoutunut linna_35
+  - first:
+      213: -7172174751718350379
+    second: tuhoutunut linna_36
+  - first:
+      213: 7594320897553053527
+    second: tuhoutunut linna_37
+  - first:
+      213: -3565715646408943701
+    second: tuhoutunut linna_38
+  - first:
+      213: 3183036308026914825
+    second: tuhoutunut linna_39
+  - first:
+      213: 3823908368605758560
+    second: tuhoutunut linna_40
+  - first:
+      213: 5145239145276523674
+    second: tuhoutunut linna_41
+  - first:
+      213: 7768057235844335901
+    second: tuhoutunut linna_42
+  - first:
+      213: -6520809433085192953
+    second: tuhoutunut linna_43
+  - first:
+      213: -8138919777402895341
+    second: tuhoutunut linna_44
+  - first:
+      213: -5420652748898570453
+    second: tuhoutunut linna_45
+  - first:
+      213: 4985132981251090815
+    second: tuhoutunut linna_46
+  - first:
+      213: -6444488493454069339
+    second: tuhoutunut linna_47
+  - first:
+      213: 1184274182416693176
+    second: tuhoutunut linna_48
+  - first:
+      213: -3051991359848685158
+    second: tuhoutunut linna_49
+  - first:
+      213: -3467354761485800307
+    second: tuhoutunut linna_50
+  - first:
+      213: 5766040523112251508
+    second: tuhoutunut linna_51
+  - first:
+      213: 414327993672435741
+    second: tuhoutunut linna_52
+  - first:
+      213: -1898412835849288898
+    second: tuhoutunut linna_53
+  - first:
+      213: 2763090186686176681
+    second: tuhoutunut linna_54
+  - first:
+      213: -1818211328953935608
+    second: tuhoutunut linna_55
+  - first:
+      213: 4669307134505608903
+    second: tuhoutunut linna_56
+  - first:
+      213: -6393841865889760840
+    second: tuhoutunut linna_57
+  - first:
+      213: -912231561376668808
+    second: tuhoutunut linna_58
+  - first:
+      213: -7070312694035519267
+    second: tuhoutunut linna_59
+  - first:
+      213: 3114838918546836053
+    second: tuhoutunut linna_60
+  - first:
+      213: -6061733912020216535
+    second: tuhoutunut linna_61
+  - first:
+      213: -8919039565924206787
+    second: tuhoutunut linna_62
+  - first:
+      213: 8597991636778758059
+    second: tuhoutunut linna_63
+  - first:
+      213: -932334267447339345
+    second: tuhoutunut linna_64
+  - first:
+      213: 2720205524290690420
+    second: tuhoutunut linna_65
+  - first:
+      213: 9168450753040778687
+    second: tuhoutunut linna_66
+  - first:
+      213: 3100871044593184251
+    second: tuhoutunut linna_67
+  - first:
+      213: -6006397146663836022
+    second: tuhoutunut linna_68
+  - first:
+      213: -5599737890250605498
+    second: tuhoutunut linna_69
+  - first:
+      213: -124212806465748026
+    second: tuhoutunut linna_70
+  - first:
+      213: -8933904953056424675
+    second: tuhoutunut linna_71
+  - first:
+      213: 7581856101960015589
+    second: tuhoutunut linna_72
+  - first:
+      213: 887626111356007109
+    second: tuhoutunut linna_73
+  - first:
+      213: -6396772021934154802
+    second: tuhoutunut linna_74
+  - first:
+      213: 7025033594357349321
+    second: tuhoutunut linna_75
+  - first:
+      213: -5074517558654388182
+    second: tuhoutunut linna_76
+  - first:
+      213: 1403292257924978960
+    second: tuhoutunut linna_77
+  - first:
+      213: -6780707031256476749
+    second: tuhoutunut linna_78
+  - first:
+      213: -8547803979234257559
+    second: tuhoutunut linna_79
+  - first:
+      213: 4687176243370971763
+    second: tuhoutunut linna_80
+  - first:
+      213: -7519365896257477647
+    second: tuhoutunut linna_81
+  - first:
+      213: 5119267081153896779
+    second: tuhoutunut linna_82
+  - first:
+      213: -3703559072993223468
+    second: tuhoutunut linna_83
+  - first:
+      213: -4204293657053707363
+    second: tuhoutunut linna_84
+  - first:
+      213: -3611640594545358955
+    second: tuhoutunut linna_85
+  - first:
+      213: -4106039086577436079
+    second: tuhoutunut linna_86
+  - first:
+      213: -4644413962909165201
+    second: tuhoutunut linna_87
+  - first:
+      213: -4277581027213874214
+    second: tuhoutunut linna_88
+  - first:
+      213: -6018375305537211643
+    second: tuhoutunut linna_89
+  - first:
+      213: 5545882949655307784
+    second: tuhoutunut linna_90
+  - first:
+      213: -3605072277300263144
+    second: tuhoutunut linna_91
+  - first:
+      213: -782852107288408786
+    second: tuhoutunut linna_92
+  - first:
+      213: -8203903760561579529
+    second: tuhoutunut linna_93
+  - first:
+      213: 5442764838620782290
+    second: tuhoutunut linna_94
+  - first:
+      213: -4688309309425240943
+    second: tuhoutunut linna_95
+  - first:
+      213: -10368199340648839
+    second: tuhoutunut linna_96
+  - first:
+      213: -1255720917903986991
+    second: tuhoutunut linna_97
+  - first:
+      213: 428771020219171795
+    second: tuhoutunut linna_98
+  - first:
+      213: -2242121168802295945
+    second: tuhoutunut linna_99
+  - first:
+      213: 1919707619790139425
+    second: tuhoutunut linna_100
+  - first:
+      213: 8843628820014271260
+    second: tuhoutunut linna_101
+  - first:
+      213: 3043589660775153222
+    second: tuhoutunut linna_102
+  - first:
+      213: -8107631420537614843
+    second: tuhoutunut linna_103
+  - first:
+      213: 979322669796243660
+    second: tuhoutunut linna_104
+  - first:
+      213: -567498384138597914
+    second: tuhoutunut linna_105
+  - first:
+      213: -3049724016238753466
+    second: tuhoutunut linna_106
+  - first:
+      213: 4925542250480649194
+    second: tuhoutunut linna_107
+  - first:
+      213: 1916770406365084102
+    second: tuhoutunut linna_108
+  - first:
+      213: -1577335645228492380
+    second: tuhoutunut linna_109
+  - first:
+      213: 200867060497379572
+    second: tuhoutunut linna_110
+  - first:
+      213: 5708873026689640083
+    second: tuhoutunut linna_111
+  - first:
+      213: 6956715848555827489
+    second: tuhoutunut linna_112
+  - first:
+      213: 5351584787500136185
+    second: tuhoutunut linna_113
+  - first:
+      213: 4838035384263840930
+    second: tuhoutunut linna_114
+  - first:
+      213: 7271810722041004695
+    second: tuhoutunut linna_115
+  - first:
+      213: 3305337881710704978
+    second: tuhoutunut linna_116
+  - first:
+      213: 7442065761507140615
+    second: tuhoutunut linna_117
+  - first:
+      213: -203453380569857617
+    second: tuhoutunut linna_118
+  - first:
+      213: 7866861064698453766
+    second: tuhoutunut linna_119
+  - first:
+      213: 3419512772643365118
+    second: tuhoutunut linna_120
+  - first:
+      213: 3235665823768942747
+    second: tuhoutunut linna_121
+  - first:
+      213: 5781021456220265734
+    second: tuhoutunut linna_122
+  - first:
+      213: 5289420185938948274
+    second: tuhoutunut linna_123
+  - first:
+      213: 2457498459159750674
+    second: tuhoutunut linna_124
+  - first:
+      213: -1880564726547181653
+    second: tuhoutunut linna_125
+  - first:
+      213: 1415054409891761471
+    second: tuhoutunut linna_126
+  - first:
+      213: 9119381792810875275
+    second: tuhoutunut linna_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tuhoutunut linna_0
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 3164
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3efb0fd6f3557e0800000000000000
+      internalID: -1777444736504699975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_1
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3165
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c429822a9882530800000000000000
+      internalID: 3830462812636990468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_2
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 3086
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ad20fc971eb670800000000000000
+      internalID: 8556302304862380122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_3
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 3124
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be609ad6a759343b0800000000000000
+      internalID: -5529411564422494485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_4
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 3046
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2ee5dff635b72e0800000000000000
+      internalID: -2127014658545098060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_5
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 2921
+        width: 33
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27498b5534f09420800000000000000
+      internalID: 2634874292017907499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_6
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 3017
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3094de9673dce93f0800000000000000
+      internalID: -892050038288725757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_7
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2963
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec703f9bcb67cb100800000000000000
+      internalID: 125105442605172686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_8
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2932
+        width: 15
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210aa1dc493e9f920800000000000000
+      internalID: 3024698852991737874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_9
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2893
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1197dc31ea0b7c720800000000000000
+      internalID: 2866453949547641105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_10
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 2982
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0fa0378a1769270800000000000000
+      internalID: 8256911935128924345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_11
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 2854
+        width: 56
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c394f948798c40e0800000000000000
+      internalID: -2284299761253837880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_12
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2831
+        width: 80
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83d11fe862d28b70800000000000000
+      internalID: 8899907161766876044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_13
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 2824
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5025ab054969ed640800000000000000
+      internalID: 5106684591238435333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_14
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 2953
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bca377d5a69f5b0800000000000000
+      internalID: -5334115333978797293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_15
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2757
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52079fdddf155c050800000000000000
+      internalID: 5820148244238921765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_16
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2843
+        width: 17
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a9d374a2a6c62f0800000000000000
+      internalID: -978290289229850099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_17
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2791
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a704162d93a330a00800000000000000
+      internalID: 721484385326547066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_18
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 2854
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78368e19aa6f1e8a0800000000000000
+      internalID: -6277465193124961401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2845
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cc338c0ebda6930800000000000000
+      internalID: 4137360966171216961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_20
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 2774
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6aa1ef6f26822b0800000000000000
+      internalID: -5609124522925316415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_21
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2814
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9684847b7245d57f0800000000000000
+      internalID: -622248643951835031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_22
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 2717
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ea01c28fe3d240800000000000000
+      internalID: 4815455771452696735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_23
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2827
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ddee9cd13f90010800000000000000
+      internalID: 1155722088664718698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_24
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2809
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417d67e76e23ef730800000000000000
+      internalID: 4034718281716127508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_25
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 2813
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e79984da31420d0800000000000000
+      internalID: -3448609779690668529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_26
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2816
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cd8425783ebdeb0800000000000000
+      internalID: -4693908016263013220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_27
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2792
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb0e6e2139fded20800000000000000
+      internalID: 3309575290814860257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_28
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 2781
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab3677f48679ede0800000000000000
+      internalID: -1303380303687566423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_29
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 2836
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7b5df411bfeb4e0800000000000000
+      internalID: -1963856335714535470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_30
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2818
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41cfa61617571fc0800000000000000
+      internalID: -3524252431012609716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_31
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 2735
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0b0de072d067390800000000000000
+      internalID: -7821049241478844223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_32
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2803
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1413638545fd07a90800000000000000
+      internalID: -7318103841126862527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_33
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2820
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b417c511c93783b0800000000000000
+      internalID: -5510372117607672652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_34
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 2764
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3e937be635dfa90800000000000000
+      internalID: -7278569687775321176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_35
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 2800
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a75618222e83130800000000000000
+      internalID: 3546833344381942318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_36
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 2804
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16dc82011577c90800000000000000
+      internalID: -7172174751718350379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_37
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2727
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757b9f0be92746960800000000000000
+      internalID: 7594320897553053527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_38
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 2754
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba71eb5f288048ec0800000000000000
+      internalID: -3565715646408943701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_39
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 2706
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9087d1f58aa6c2c20800000000000000
+      internalID: 3183036308026914825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_40
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 2721
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064c36cb660411530800000000000000
+      internalID: 3823908368605758560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_41
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2694
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9444a2fdbf876740800000000000000
+      internalID: 5145239145276523674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_42
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 2758
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19876926eeadcb60800000000000000
+      internalID: 7768057235844335901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_43
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 2755
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705d0fc8e5e6185a0800000000000000
+      internalID: -6520809433085192953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_44
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 2642
+        width: 47
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314cf74959fbc0f80800000000000000
+      internalID: -8138919777402895341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_45
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 2761
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fe7237b09f5c4b0800000000000000
+      internalID: -5420652748898570453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_46
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2736
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f792e89b800ce2540800000000000000
+      internalID: 4985132981251090815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_47
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2744
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1f39c0cd39096a0800000000000000
+      internalID: -6444488493454069339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_48
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2730
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7fc9728136f6010800000000000000
+      internalID: 1184274182416693176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_49
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2743
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9168a2470625a5d0800000000000000
+      internalID: -3051991359848685158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_50
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 2698
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c216b173b71efc0800000000000000
+      internalID: -3467354761485800307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_51
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2721
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4700d945e47150050800000000000000
+      internalID: 5766040523112251508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_52
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 2717
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1888537d1dffb500800000000000000
+      internalID: 414327993672435741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_53
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 2637
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e334922859b77a5e0800000000000000
+      internalID: -1898412835849288898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_54
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 2716
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad1cc3a2e7785620800000000000000
+      internalID: 2763090186686176681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_55
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 2721
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8091c1bfd6a64c6e0800000000000000
+      internalID: -1818211328953935608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_56
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 2686
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6676b8916bcc040800000000000000
+      internalID: 4669307134505608903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_57
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2687
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9be91f2b28447a0800000000000000
+      internalID: -6393841865889760840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_58
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 2654
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8736e376a3a1753f0800000000000000
+      internalID: -912231561376668808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_59
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2712
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8e31d901431ed90800000000000000
+      internalID: -7070312694035519267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_60
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 2450
+        width: 59
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55acb884e712a3b20800000000000000
+      internalID: 3114838918546836053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_61
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2697
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925981b9f1560eba0800000000000000
+      internalID: -6061733912020216535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_62
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2634
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37fe6715c4393480800000000000000
+      internalID: -8919039565924206787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_63
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 2664
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf2afbe6d3325770800000000000000
+      internalID: 8597991636778758059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_64
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 2599
+        width: 47
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa690e86ceeaf03f0800000000000000
+      internalID: -932334267447339345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_65
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 2559
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dd667138c10c520800000000000000
+      internalID: 2720205524290690420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_66
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 2584
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb588a32261ec3f70800000000000000
+      internalID: 9168450753040778687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_67
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2497
+        width: 138
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd654339c1880b20800000000000000
+      internalID: 3100871044593184251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_68
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2627
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86ae2d4e9df4aca0800000000000000
+      internalID: -6006397146663836022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_69
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 2555
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c3158be0cb942b0800000000000000
+      internalID: -5599737890250605498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_70
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2598
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c30e025c15b64ef0800000000000000
+      internalID: -124212806465748026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_71
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 2602
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d08ff67c4640480800000000000000
+      internalID: -8933904953056424675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_72
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2543
+        width: 152
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee547f44f9283960800000000000000
+      internalID: 7581856101960015589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_73
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2590
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c27cb4de3b715c00800000000000000
+      internalID: 887626111356007109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_74
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 2575
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1573dcb91a37a0800000000000000
+      internalID: -6396772021934154802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_75
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2569
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbfad675deed7160800000000000000
+      internalID: 7025033594357349321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_76
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2567
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a283ce59a21b399b0800000000000000
+      internalID: -5074517558654388182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_77
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2358
+        width: 279
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0199ca5afde797310800000000000000
+      internalID: 1403292257924978960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_78
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2578
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d6fb71e616e1a0800000000000000
+      internalID: -6780707031256476749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_79
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2578
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9655210b199106980800000000000000
+      internalID: -8547803979234257559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_80
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 2553
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372d6c9a5f13c0140800000000000000
+      internalID: 4687176243370971763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_81
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 2571
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3e2618e88d5a790800000000000000
+      internalID: -7519365896257477647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_82
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 2564
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41678a894a4b0740800000000000000
+      internalID: 5119267081153896779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_83
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2558
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc509935a05a9cc0800000000000000
+      internalID: -3703559072993223468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_84
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 2565
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93c2e7b13957a5c0800000000000000
+      internalID: -4204293657053707363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_85
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2535
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5974eb9b300e0edc0800000000000000
+      internalID: -3611640594545358955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_86
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2535
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15abeaa943b6407c0800000000000000
+      internalID: -4106039086577436079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_87
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 2560
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f695fee9b1abb8fb0800000000000000
+      internalID: -4644413962909165201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_88
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2554
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb67f628baf2a4c0800000000000000
+      internalID: -4277581027213874214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_89
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2535
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503b87cdb8f6a7ca0800000000000000
+      internalID: -6018375305537211643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_90
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 2540
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806a91cc82fe6fc40800000000000000
+      internalID: 5545882949655307784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_91
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 2547
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817c8e14dd538fdc0800000000000000
+      internalID: -3605072277300263144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_92
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 2536
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d8869f720c225f0800000000000000
+      internalID: -782852107288408786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_93
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 2524
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f95c34fef0e52e80800000000000000
+      internalID: -8203903760561579529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_94
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2535
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de5af1a8c5988b40800000000000000
+      internalID: 5442764838620782290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_95
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 2524
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1943d86d587cfeeb0800000000000000
+      internalID: -4688309309425240943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_96
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 2511
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97617597d2a2bdff0800000000000000
+      internalID: -10368199340648839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_97
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 2509
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de2e4f6a78c29ee0800000000000000
+      internalID: -1255720917903986991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_98
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2372
+        width: 52
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3452e98fc43f500800000000000000
+      internalID: 428771020219171795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_99
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2484
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fc72e1da262e0e0800000000000000
+      internalID: -2242121168802295945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_100
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2411
+        width: 82
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b33eb8eb24aa10800000000000000
+      internalID: 1919707619790139425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_101
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 2509
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b8b566e81eaba70800000000000000
+      internalID: 8843628820014271260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_102
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2510
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64efd8cbba00d3a20800000000000000
+      internalID: 3043589660775153222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_103
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 2509
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e4f09dd28eb7f80800000000000000
+      internalID: -8107631420537614843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_104
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 2461
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc831bd87c0479d00800000000000000
+      internalID: 979322669796243660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_105
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 2441
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e98fc2f937df18f0800000000000000
+      internalID: -567498384138597914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_106
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2337
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6498c155a243da5d0800000000000000
+      internalID: -3049724016238753466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_107
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2283
+        width: 107
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c316849a0b5440800000000000000
+      internalID: 4925542250480649194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_108
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2372
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c93f53778cb99a10800000000000000
+      internalID: 1916770406365084102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_109
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2388
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a91896769d2c1ae0800000000000000
+      internalID: -1577335645228492380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_110
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 2322
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0f50cf68f99c200800000000000000
+      internalID: 200867060497379572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_111
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 2346
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39625a755cdf93f40800000000000000
+      internalID: 5708873026689640083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_112
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2335
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121108cb4383b8060800000000000000
+      internalID: 6956715848555827489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_113
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2298
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f67454a206a44a40800000000000000
+      internalID: 5351584787500136185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_114
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 2327
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a411d98c87242340800000000000000
+      internalID: 4838035384263840930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_115
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 2146
+        width: 114
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7928121f259aae460800000000000000
+      internalID: 7271810722041004695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_116
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 2341
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259320e7a4beedd20800000000000000
+      internalID: 3305337881710704978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_117
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 797
+        width: 2099
+        height: 1541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704eabd5167874760800000000000000
+      internalID: 7442065761507140615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_118
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2326
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa108c27a303d2df0800000000000000
+      internalID: -203453380569857617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_119
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 2336
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fd3ba3574bc2d60800000000000000
+      internalID: 7866861064698453766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_120
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 2332
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0a156dfbc847f20800000000000000
+      internalID: 3419512772643365118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_121
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2306
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b989e956ce467ec20800000000000000
+      internalID: 3235665823768942747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_122
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 2304
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d9be0a2605a3050800000000000000
+      internalID: 5781021456220265734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_123
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 2318
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0fba272abc76940800000000000000
+      internalID: 5289420185938948274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_124
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 2311
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218694604d9ca1220800000000000000
+      internalID: 2457498459159750674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_125
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 2301
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf86094854e6e5e0800000000000000
+      internalID: -1880564726547181653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_126
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 2135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc27f0d7843a310800000000000000
+      internalID: 1415054409891761471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuhoutunut linna_127
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1477
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8938ab8c6d8e8e70800000000000000
+      internalID: 9119381792810875275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tuhoutunut linna_0: -1777444736504699975
+      tuhoutunut linna_1: 3830462812636990468
+      tuhoutunut linna_10: 8256911935128924345
+      tuhoutunut linna_100: 1919707619790139425
+      tuhoutunut linna_101: 8843628820014271260
+      tuhoutunut linna_102: 3043589660775153222
+      tuhoutunut linna_103: -8107631420537614843
+      tuhoutunut linna_104: 979322669796243660
+      tuhoutunut linna_105: -567498384138597914
+      tuhoutunut linna_106: -3049724016238753466
+      tuhoutunut linna_107: 4925542250480649194
+      tuhoutunut linna_108: 1916770406365084102
+      tuhoutunut linna_109: -1577335645228492380
+      tuhoutunut linna_11: -2284299761253837880
+      tuhoutunut linna_110: 200867060497379572
+      tuhoutunut linna_111: 5708873026689640083
+      tuhoutunut linna_112: 6956715848555827489
+      tuhoutunut linna_113: 5351584787500136185
+      tuhoutunut linna_114: 4838035384263840930
+      tuhoutunut linna_115: 7271810722041004695
+      tuhoutunut linna_116: 3305337881710704978
+      tuhoutunut linna_117: 7442065761507140615
+      tuhoutunut linna_118: -203453380569857617
+      tuhoutunut linna_119: 7866861064698453766
+      tuhoutunut linna_12: 8899907161766876044
+      tuhoutunut linna_120: 3419512772643365118
+      tuhoutunut linna_121: 3235665823768942747
+      tuhoutunut linna_122: 5781021456220265734
+      tuhoutunut linna_123: 5289420185938948274
+      tuhoutunut linna_124: 2457498459159750674
+      tuhoutunut linna_125: -1880564726547181653
+      tuhoutunut linna_126: 1415054409891761471
+      tuhoutunut linna_127: 9119381792810875275
+      tuhoutunut linna_13: 5106684591238435333
+      tuhoutunut linna_14: -5334115333978797293
+      tuhoutunut linna_15: 5820148244238921765
+      tuhoutunut linna_16: -978290289229850099
+      tuhoutunut linna_17: 721484385326547066
+      tuhoutunut linna_18: -6277465193124961401
+      tuhoutunut linna_19: 4137360966171216961
+      tuhoutunut linna_2: 8556302304862380122
+      tuhoutunut linna_20: -5609124522925316415
+      tuhoutunut linna_21: -622248643951835031
+      tuhoutunut linna_22: 4815455771452696735
+      tuhoutunut linna_23: 1155722088664718698
+      tuhoutunut linna_24: 4034718281716127508
+      tuhoutunut linna_25: -3448609779690668529
+      tuhoutunut linna_26: -4693908016263013220
+      tuhoutunut linna_27: 3309575290814860257
+      tuhoutunut linna_28: -1303380303687566423
+      tuhoutunut linna_29: -1963856335714535470
+      tuhoutunut linna_3: -5529411564422494485
+      tuhoutunut linna_30: -3524252431012609716
+      tuhoutunut linna_31: -7821049241478844223
+      tuhoutunut linna_32: -7318103841126862527
+      tuhoutunut linna_33: -5510372117607672652
+      tuhoutunut linna_34: -7278569687775321176
+      tuhoutunut linna_35: 3546833344381942318
+      tuhoutunut linna_36: -7172174751718350379
+      tuhoutunut linna_37: 7594320897553053527
+      tuhoutunut linna_38: -3565715646408943701
+      tuhoutunut linna_39: 3183036308026914825
+      tuhoutunut linna_4: -2127014658545098060
+      tuhoutunut linna_40: 3823908368605758560
+      tuhoutunut linna_41: 5145239145276523674
+      tuhoutunut linna_42: 7768057235844335901
+      tuhoutunut linna_43: -6520809433085192953
+      tuhoutunut linna_44: -8138919777402895341
+      tuhoutunut linna_45: -5420652748898570453
+      tuhoutunut linna_46: 4985132981251090815
+      tuhoutunut linna_47: -6444488493454069339
+      tuhoutunut linna_48: 1184274182416693176
+      tuhoutunut linna_49: -3051991359848685158
+      tuhoutunut linna_5: 2634874292017907499
+      tuhoutunut linna_50: -3467354761485800307
+      tuhoutunut linna_51: 5766040523112251508
+      tuhoutunut linna_52: 414327993672435741
+      tuhoutunut linna_53: -1898412835849288898
+      tuhoutunut linna_54: 2763090186686176681
+      tuhoutunut linna_55: -1818211328953935608
+      tuhoutunut linna_56: 4669307134505608903
+      tuhoutunut linna_57: -6393841865889760840
+      tuhoutunut linna_58: -912231561376668808
+      tuhoutunut linna_59: -7070312694035519267
+      tuhoutunut linna_6: -892050038288725757
+      tuhoutunut linna_60: 3114838918546836053
+      tuhoutunut linna_61: -6061733912020216535
+      tuhoutunut linna_62: -8919039565924206787
+      tuhoutunut linna_63: 8597991636778758059
+      tuhoutunut linna_64: -932334267447339345
+      tuhoutunut linna_65: 2720205524290690420
+      tuhoutunut linna_66: 9168450753040778687
+      tuhoutunut linna_67: 3100871044593184251
+      tuhoutunut linna_68: -6006397146663836022
+      tuhoutunut linna_69: -5599737890250605498
+      tuhoutunut linna_7: 125105442605172686
+      tuhoutunut linna_70: -124212806465748026
+      tuhoutunut linna_71: -8933904953056424675
+      tuhoutunut linna_72: 7581856101960015589
+      tuhoutunut linna_73: 887626111356007109
+      tuhoutunut linna_74: -6396772021934154802
+      tuhoutunut linna_75: 7025033594357349321
+      tuhoutunut linna_76: -5074517558654388182
+      tuhoutunut linna_77: 1403292257924978960
+      tuhoutunut linna_78: -6780707031256476749
+      tuhoutunut linna_79: -8547803979234257559
+      tuhoutunut linna_8: 3024698852991737874
+      tuhoutunut linna_80: 4687176243370971763
+      tuhoutunut linna_81: -7519365896257477647
+      tuhoutunut linna_82: 5119267081153896779
+      tuhoutunut linna_83: -3703559072993223468
+      tuhoutunut linna_84: -4204293657053707363
+      tuhoutunut linna_85: -3611640594545358955
+      tuhoutunut linna_86: -4106039086577436079
+      tuhoutunut linna_87: -4644413962909165201
+      tuhoutunut linna_88: -4277581027213874214
+      tuhoutunut linna_89: -6018375305537211643
+      tuhoutunut linna_9: 2866453949547641105
+      tuhoutunut linna_90: 5545882949655307784
+      tuhoutunut linna_91: -3605072277300263144
+      tuhoutunut linna_92: -782852107288408786
+      tuhoutunut linna_93: -8203903760561579529
+      tuhoutunut linna_94: 5442764838620782290
+      tuhoutunut linna_95: -4688309309425240943
+      tuhoutunut linna_96: -10368199340648839
+      tuhoutunut linna_97: -1255720917903986991
+      tuhoutunut linna_98: 428771020219171795
+      tuhoutunut linna_99: -2242121168802295945
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
