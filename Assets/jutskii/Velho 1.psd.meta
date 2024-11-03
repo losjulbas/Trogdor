@@ -1,0 +1,5187 @@
+fileFormatVersion: 2
+guid: 795048f6cfb46a542985de469f1bd300
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1019206114843434834
+    second: Velho 1_0
+  - first:
+      213: 4235464475054023246
+    second: Velho 1_1
+  - first:
+      213: -4391125025743926119
+    second: Velho 1_2
+  - first:
+      213: -6065567544569112252
+    second: Velho 1_3
+  - first:
+      213: -5678126610972738811
+    second: Velho 1_4
+  - first:
+      213: -8257688204902127515
+    second: Velho 1_5
+  - first:
+      213: -7766223007803002651
+    second: Velho 1_6
+  - first:
+      213: -8619923242493691120
+    second: Velho 1_7
+  - first:
+      213: -4157597131455691791
+    second: Velho 1_8
+  - first:
+      213: 4153227817672540602
+    second: Velho 1_9
+  - first:
+      213: 5478696208343873661
+    second: Velho 1_10
+  - first:
+      213: 851046490919988114
+    second: Velho 1_11
+  - first:
+      213: -4579796982571221325
+    second: Velho 1_12
+  - first:
+      213: 9087529210226974767
+    second: Velho 1_13
+  - first:
+      213: 1355126232354942503
+    second: Velho 1_14
+  - first:
+      213: -5624741273177063909
+    second: Velho 1_15
+  - first:
+      213: 3200444254259858361
+    second: Velho 1_16
+  - first:
+      213: 8255325356934119102
+    second: Velho 1_17
+  - first:
+      213: 9122736127085879308
+    second: Velho 1_18
+  - first:
+      213: 8121779068692639075
+    second: Velho 1_19
+  - first:
+      213: -6997582002576569327
+    second: Velho 1_20
+  - first:
+      213: -3406195721078848673
+    second: Velho 1_21
+  - first:
+      213: -1030702936258248837
+    second: Velho 1_22
+  - first:
+      213: 9017764845435807457
+    second: Velho 1_23
+  - first:
+      213: 2528915196884518569
+    second: Velho 1_24
+  - first:
+      213: 1988129380987349656
+    second: Velho 1_25
+  - first:
+      213: 3627467236025324277
+    second: Velho 1_26
+  - first:
+      213: 1440672828631807881
+    second: Velho 1_27
+  - first:
+      213: 3983194882837512861
+    second: Velho 1_28
+  - first:
+      213: -6404542195011942898
+    second: Velho 1_29
+  - first:
+      213: 7292247813395078683
+    second: Velho 1_30
+  - first:
+      213: 1393302128646816680
+    second: Velho 1_31
+  - first:
+      213: 2231798346564303919
+    second: Velho 1_32
+  - first:
+      213: -1208170677247952383
+    second: Velho 1_33
+  - first:
+      213: -5772098083234802530
+    second: Velho 1_34
+  - first:
+      213: -6100400712059845195
+    second: Velho 1_35
+  - first:
+      213: -8958338210864008999
+    second: Velho 1_36
+  - first:
+      213: -1762805795058228701
+    second: Velho 1_37
+  - first:
+      213: -5050567442422384476
+    second: Velho 1_38
+  - first:
+      213: 4084322703870475159
+    second: Velho 1_39
+  - first:
+      213: -4398415504136991594
+    second: Velho 1_40
+  - first:
+      213: 3515615176742765480
+    second: Velho 1_41
+  - first:
+      213: 6020934170038306171
+    second: Velho 1_42
+  - first:
+      213: 8548429454894278554
+    second: Velho 1_43
+  - first:
+      213: -8698914178847564626
+    second: Velho 1_44
+  - first:
+      213: -8516897018393552824
+    second: Velho 1_45
+  - first:
+      213: 7342605665045856991
+    second: Velho 1_46
+  - first:
+      213: -3225488262638692568
+    second: Velho 1_47
+  - first:
+      213: 2841084069378615830
+    second: Velho 1_48
+  - first:
+      213: 6492377473106927883
+    second: Velho 1_49
+  - first:
+      213: 1367373054053974927
+    second: Velho 1_50
+  - first:
+      213: -2930940499026722592
+    second: Velho 1_51
+  - first:
+      213: -8953916414522414981
+    second: Velho 1_52
+  - first:
+      213: 8204299159034733933
+    second: Velho 1_53
+  - first:
+      213: 6089410959434731990
+    second: Velho 1_54
+  - first:
+      213: 8213873663813471633
+    second: Velho 1_55
+  - first:
+      213: -3629508215859254308
+    second: Velho 1_56
+  - first:
+      213: 3267216812873264000
+    second: Velho 1_57
+  - first:
+      213: 8241072949048122905
+    second: Velho 1_58
+  - first:
+      213: -116682991144945926
+    second: Velho 1_59
+  - first:
+      213: 7112516559672792844
+    second: Velho 1_60
+  - first:
+      213: 8224337174077570995
+    second: Velho 1_61
+  - first:
+      213: -434093532414792126
+    second: Velho 1_62
+  - first:
+      213: -1175780396464167008
+    second: Velho 1_63
+  - first:
+      213: -3371362919256491934
+    second: Velho 1_64
+  - first:
+      213: 9125522993333033833
+    second: Velho 1_65
+  - first:
+      213: 2965242981640290293
+    second: Velho 1_66
+  - first:
+      213: 646444556320552286
+    second: Velho 1_67
+  - first:
+      213: 3959068970061358814
+    second: Velho 1_68
+  - first:
+      213: 6871027586743601197
+    second: Velho 1_69
+  - first:
+      213: 480846898691104838
+    second: Velho 1_70
+  - first:
+      213: -1094435786432790728
+    second: Velho 1_71
+  - first:
+      213: -1597383913536640055
+    second: Velho 1_72
+  - first:
+      213: -4343763154494346584
+    second: Velho 1_73
+  - first:
+      213: 2774508504226979076
+    second: Velho 1_74
+  - first:
+      213: 7658119949528729106
+    second: Velho 1_75
+  - first:
+      213: 1174380284087967648
+    second: Velho 1_76
+  - first:
+      213: 5364849752719038131
+    second: Velho 1_77
+  - first:
+      213: -4599561683394797118
+    second: Velho 1_78
+  - first:
+      213: -7802266559329299410
+    second: Velho 1_79
+  - first:
+      213: -6423380343608128823
+    second: Velho 1_80
+  - first:
+      213: -1177991086088865215
+    second: Velho 1_81
+  - first:
+      213: -4496073675412160917
+    second: Velho 1_82
+  - first:
+      213: 5379414529926957831
+    second: Velho 1_83
+  - first:
+      213: 9125371551922256800
+    second: Velho 1_84
+  - first:
+      213: 8159276742437629186
+    second: Velho 1_85
+  - first:
+      213: -1732080701420211691
+    second: Velho 1_86
+  - first:
+      213: 6803638100067566882
+    second: Velho 1_87
+  - first:
+      213: 3194013485519856509
+    second: Velho 1_88
+  - first:
+      213: -6619878686799989843
+    second: Velho 1_89
+  - first:
+      213: 536118839991335423
+    second: Velho 1_90
+  - first:
+      213: -6961995686641686650
+    second: Velho 1_91
+  - first:
+      213: -5445708742190547620
+    second: Velho 1_92
+  - first:
+      213: -3277576005173485287
+    second: Velho 1_93
+  - first:
+      213: -7741774581938698473
+    second: Velho 1_94
+  - first:
+      213: -548767599995275557
+    second: Velho 1_95
+  - first:
+      213: -2393759452907240353
+    second: Velho 1_96
+  - first:
+      213: -970680963128190045
+    second: Velho 1_97
+  - first:
+      213: 570208001300774280
+    second: Velho 1_98
+  - first:
+      213: -6288699851084193499
+    second: Velho 1_99
+  - first:
+      213: 3431869697499275757
+    second: Velho 1_100
+  - first:
+      213: -3691650177774731750
+    second: Velho 1_101
+  - first:
+      213: 1051558348290457769
+    second: Velho 1_102
+  - first:
+      213: 9107278334222049755
+    second: Velho 1_103
+  - first:
+      213: -1149619470048339538
+    second: Velho 1_104
+  - first:
+      213: 3306330015753046956
+    second: Velho 1_105
+  - first:
+      213: 1923586871260702033
+    second: Velho 1_106
+  - first:
+      213: -4396721994005109890
+    second: Velho 1_107
+  - first:
+      213: 7745858286130369376
+    second: Velho 1_108
+  - first:
+      213: -4748545004399793899
+    second: Velho 1_109
+  - first:
+      213: 8368119727478069576
+    second: Velho 1_110
+  - first:
+      213: 2031693853482772232
+    second: Velho 1_111
+  - first:
+      213: -7824246076016649468
+    second: Velho 1_112
+  - first:
+      213: 6000626375726463043
+    second: Velho 1_113
+  - first:
+      213: 8390853830796884439
+    second: Velho 1_114
+  - first:
+      213: 7725310652720745136
+    second: Velho 1_115
+  - first:
+      213: -9166998505266025644
+    second: Velho 1_116
+  - first:
+      213: 2826466588749622787
+    second: Velho 1_117
+  - first:
+      213: -2372786809150895829
+    second: Velho 1_118
+  - first:
+      213: 7986093382094712793
+    second: Velho 1_119
+  - first:
+      213: 6837029498304857013
+    second: Velho 1_120
+  - first:
+      213: -4739379285058701457
+    second: Velho 1_121
+  - first:
+      213: -738028705006976821
+    second: Velho 1_122
+  - first:
+      213: 3152094110515278633
+    second: Velho 1_123
+  - first:
+      213: 4363804888744396727
+    second: Velho 1_124
+  - first:
+      213: -8010443780150627183
+    second: Velho 1_125
+  - first:
+      213: -6117007081124451789
+    second: Velho 1_126
+  - first:
+      213: 6210314751931986824
+    second: Velho 1_127
+  - first:
+      213: 4998492087482472526
+    second: Velho 1_128
+  - first:
+      213: 7033513182568462112
+    second: Velho 1_129
+  - first:
+      213: -6231702192405136327
+    second: Velho 1_130
+  - first:
+      213: 4906986716442876271
+    second: Velho 1_131
+  - first:
+      213: 5891775551767466173
+    second: Velho 1_132
+  - first:
+      213: -5767458971669486167
+    second: Velho 1_133
+  - first:
+      213: 439578565128256466
+    second: Velho 1_134
+  - first:
+      213: 1020354104443846145
+    second: Velho 1_135
+  - first:
+      213: -3926652539720862439
+    second: Velho 1_136
+  - first:
+      213: 8096090377860805145
+    second: Velho 1_137
+  - first:
+      213: 8921167877635229997
+    second: Velho 1_138
+  - first:
+      213: 397328605447424405
+    second: Velho 1_139
+  - first:
+      213: -8342889867986889921
+    second: Velho 1_140
+  - first:
+      213: 5035179277439829649
+    second: Velho 1_141
+  - first:
+      213: -5031244230433538888
+    second: Velho 1_142
+  - first:
+      213: 4888723299294103164
+    second: Velho 1_143
+  - first:
+      213: -2465318467334752523
+    second: Velho 1_144
+  - first:
+      213: -8616805859738644804
+    second: Velho 1_145
+  - first:
+      213: -3035381154201920818
+    second: Velho 1_146
+  - first:
+      213: 4950797920750058481
+    second: Velho 1_147
+  - first:
+      213: -3418558739886774623
+    second: Velho 1_148
+  - first:
+      213: 7993761052877638141
+    second: Velho 1_149
+  - first:
+      213: -137785046942246749
+    second: Velho 1_150
+  - first:
+      213: 507578413384801726
+    second: Velho 1_151
+  - first:
+      213: -7202114211622084305
+    second: Velho 1_152
+  - first:
+      213: 2295331600732522911
+    second: Velho 1_153
+  - first:
+      213: 7328587898752745051
+    second: Velho 1_154
+  - first:
+      213: -4212222752601777102
+    second: Velho 1_155
+  - first:
+      213: -8345106945071033451
+    second: Velho 1_156
+  - first:
+      213: -7245770660479415806
+    second: Velho 1_157
+  - first:
+      213: 6266020667258991892
+    second: Velho 1_158
+  - first:
+      213: 853612490584236613
+    second: Velho 1_159
+  - first:
+      213: 2845875835064238223
+    second: Velho 1_160
+  - first:
+      213: -7277699447996709809
+    second: Velho 1_161
+  - first:
+      213: 1239545447991747173
+    second: Velho 1_162
+  - first:
+      213: -7694149171450025093
+    second: Velho 1_163
+  - first:
+      213: 2895632155895972596
+    second: Velho 1_164
+  - first:
+      213: 5836428475860241811
+    second: Velho 1_165
+  - first:
+      213: -7761866943835252701
+    second: Velho 1_166
+  - first:
+      213: 662453976537196876
+    second: Velho 1_167
+  - first:
+      213: 5284722983849365034
+    second: Velho 1_168
+  - first:
+      213: 1956310203122144569
+    second: Velho 1_169
+  - first:
+      213: -7964286501536819994
+    second: Velho 1_170
+  - first:
+      213: -1300659693623170423
+    second: Velho 1_171
+  - first:
+      213: 3034236326055757713
+    second: Velho 1_172
+  - first:
+      213: 6218724963865321865
+    second: Velho 1_173
+  - first:
+      213: -8025299365129070356
+    second: Velho 1_174
+  - first:
+      213: -7574213090735000575
+    second: Velho 1_175
+  - first:
+      213: -3419830827297724716
+    second: Velho 1_176
+  - first:
+      213: -6022599732322195339
+    second: Velho 1_177
+  - first:
+      213: -7825985528626693636
+    second: Velho 1_178
+  - first:
+      213: 3107217286184734644
+    second: Velho 1_179
+  - first:
+      213: -2987256812441514026
+    second: Velho 1_180
+  - first:
+      213: 3701145772380852670
+    second: Velho 1_181
+  - first:
+      213: 338798923627384661
+    second: Velho 1_182
+  - first:
+      213: 526201558666458298
+    second: Velho 1_183
+  - first:
+      213: -8194968185367930886
+    second: Velho 1_184
+  - first:
+      213: 277569133108817847
+    second: Velho 1_185
+  - first:
+      213: 1960122181921388737
+    second: Velho 1_186
+  - first:
+      213: -868488299857687821
+    second: Velho 1_187
+  - first:
+      213: -8735588954539057739
+    second: Velho 1_188
+  - first:
+      213: -1986609294837817221
+    second: Velho 1_189
+  - first:
+      213: 8914981410242514708
+    second: Velho 1_190
+  - first:
+      213: 2527228003899550538
+    second: Velho 1_191
+  - first:
+      213: -3330977418801687265
+    second: Velho 1_192
+  - first:
+      213: -9220780842181472691
+    second: Velho 1_193
+  - first:
+      213: 1094569349840109051
+    second: Velho 1_194
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Velho 1_0
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1718
+        width: 16
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f162cbf82f42e00800000000000000
+      internalID: 1019206114843434834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_1
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1822
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42a166ef7467ca30800000000000000
+      internalID: 4235464475054023246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_2
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1595
+        width: 9
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c8434ed079f03c0800000000000000
+      internalID: -4391125025743926119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1524
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449d1d87476c2dba0800000000000000
+      internalID: -6065567544569112252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1279
+        width: 112
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bf64b6eed3331b0800000000000000
+      internalID: -5678126610972738811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1536
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56820e8245cc66d80800000000000000
+      internalID: -8257688204902127515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_6
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1533
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0bf655255d83490800000000000000
+      internalID: -7766223007803002651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1523
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bb7043b71ef5880800000000000000
+      internalID: -8619923242493691120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1493
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f38664df6f3d46c0800000000000000
+      internalID: -4157597131455691791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 402
+        width: 800
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab184a702ba33a930800000000000000
+      internalID: 4153227817672540602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_10
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1535
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78bd929c2d380c40800000000000000
+      internalID: 5478696208343873661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1368
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29be0a246468fcb00800000000000000
+      internalID: 851046490919988114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1352
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bebf6eb8ea4170c0800000000000000
+      internalID: -4579796982571221325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20a09d3ba36d1e70800000000000000
+      internalID: 9087529210226974767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_14
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1387
+        width: 18
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e6459e0206ec210800000000000000
+      internalID: 1355126232354942503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1409
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e7dcafc97e0f1b0800000000000000
+      internalID: -5624741273177063909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_16
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1403
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb4992b7134a6c20800000000000000
+      internalID: 3200444254259858361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_17
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1400
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe355d6caec09270800000000000000
+      internalID: 8255325356934119102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1365
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00a39a5c287a9e70800000000000000
+      internalID: 9122736127085879308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_19
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1381
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36da0ad280b56b070800000000000000
+      internalID: 8121779068692639075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_20
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1361
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cc1c15e3893ee90800000000000000
+      internalID: -6997582002576569327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_21
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1384
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53c3a9d903cab0d0800000000000000
+      internalID: -3406195721078848673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1343
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fff5fe32532b1f0800000000000000
+      internalID: -1030702936258248837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1356
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e4384959852d70800000000000000
+      internalID: 9017764845435807457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_24
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1344
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6836909f2881320800000000000000
+      internalID: 2528915196884518569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1296
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89aa4417321479b10800000000000000
+      internalID: 1988129380987349656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_26
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f258a56b3a575230800000000000000
+      internalID: 3627467236025324277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_27
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1213
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987f72cfd4c4ef310800000000000000
+      internalID: 1440672828631807881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_28
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1213
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d920fae54a6274730800000000000000
+      internalID: 3983194882837512861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_29
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1175
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06005d6ece7e17a0800000000000000
+      internalID: -6404542195011942898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_30
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1175
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e588310c4433560800000000000000
+      internalID: 7292247813395078683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_31
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1128
+        width: 24
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a30aca67e0065310800000000000000
+      internalID: 1393302128646816680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_32
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cf44985c0f8fe10800000000000000
+      internalID: 2231798346564303919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_33
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1174
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ab7929b27bb3fe0800000000000000
+      internalID: -1208170677247952383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_34
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1058
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94931c006365efa0800000000000000
+      internalID: -5772098083234802530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_35
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1167
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5022aafd5075ba0800000000000000
+      internalID: -6100400712059845195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_36
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d074ab4cd69da380800000000000000
+      internalID: -8958338210864008999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_37
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1153
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322ed8918714987e0800000000000000
+      internalID: -1762805795058228701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_38
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1152
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8b2409ba7c8e9b0800000000000000
+      internalID: -5050567442422384476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_39
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b33480cdd6ea830800000000000000
+      internalID: 4084322703870475159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_40
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1156
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c085d1760b5f2c0800000000000000
+      internalID: -4398415504136991594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1079
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a389b07069f9c030800000000000000
+      internalID: 3515615176742765480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1052
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7505253ab7ae8350800000000000000
+      internalID: 6020934170038306171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_43
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 876
+        width: 167
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a5763c4f12a670800000000000000
+      internalID: 8548429454894278554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_44
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1141
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac9e26a4af374780800000000000000
+      internalID: -8698914178847564626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_45
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1144
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84891164947edc980800000000000000
+      internalID: -8516897018393552824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_46
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1125
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd244d613fc26e560800000000000000
+      internalID: 7342605665045856991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_47
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1132
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8279a36b383cc33d0800000000000000
+      internalID: -3225488262638692568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_48
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a655c88ee8d6720800000000000000
+      internalID: 2841084069378615830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_49
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b016948e9ee891a50800000000000000
+      internalID: 6492377473106927883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_50
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1115
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83045a4c82e9f210800000000000000
+      internalID: 1367373054053974927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_51
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0c4b915253357d0800000000000000
+      internalID: -2930940499026722592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_52
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1128
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b782adbf57c4db380800000000000000
+      internalID: -8953916414522414981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d652d4ded968bd170800000000000000
+      internalID: 8204299159034733933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1089
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d15a78210fe18450800000000000000
+      internalID: 6089410959434731990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_55
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1118
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dc989049a8df170800000000000000
+      internalID: 8213873663813471633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_56
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbe854f18561adc0800000000000000
+      internalID: -3629508215859254308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_57
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1088
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bae7f716c775d20800000000000000
+      internalID: 3267216812873264000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1106
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e18102f2c2e5270800000000000000
+      internalID: 8241072949048122905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_59
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1108
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6b9711075716ef0800000000000000
+      internalID: -116682991144945926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_60
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1107
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c075166902cb4b260800000000000000
+      internalID: 7112516559672792844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_61
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1099
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bffeedd517b22270800000000000000
+      internalID: 8224337174077570995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_62
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1099
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e2f117b3ac9f9f0800000000000000
+      internalID: -434093532414792126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_63
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1087
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7a2ee75f9ceafe0800000000000000
+      internalID: -1175780396464167008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_64
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1097
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268fac489438631d0800000000000000
+      internalID: -3371362919256491934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_65
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1082
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b564730de54ae70800000000000000
+      internalID: 9125522993333033833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_66
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1085
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffb36108c8a62920800000000000000
+      internalID: 2965242981640290293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1083
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55b87226e1a8f800800000000000000
+      internalID: 646444556320552286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1075
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed667c1904071f630800000000000000
+      internalID: 3959068970061358814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1080
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2803c59f2bca5f50800000000000000
+      internalID: 6871027586743601197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_70
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640e4dbe4bf4ca600800000000000000
+      internalID: 480846898691104838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_71
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1087
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fb2386378cfc0f0800000000000000
+      internalID: -1094435786432790728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_72
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1087
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba9bf3bc3f4d9e0800000000000000
+      internalID: -1597383913536640055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_73
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1072
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa2febdc6ad7b3c0800000000000000
+      internalID: -4343763154494346584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_74
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1078
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ddfbcd8c8018620800000000000000
+      internalID: 2774508504226979076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_75
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1081
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2160ef6058b174a60800000000000000
+      internalID: 7658119949528729106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_76
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1065
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af194075ac3c4010800000000000000
+      internalID: 1174380284087967648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_77
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1076
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b619280d66c37a40800000000000000
+      internalID: 5364849752719038131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1025
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c161cab4031b20c0800000000000000
+      internalID: -4599561683394797118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_79
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1074
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24944807e7c8b390800000000000000
+      internalID: -7802266559329299410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_80
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1067
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cac20a2c919bd6a0800000000000000
+      internalID: -6423380343608128823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_81
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1058
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ab815395fe6afe0800000000000000
+      internalID: -1177991086088865215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_82
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1059
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb21d30dcba91c0800000000000000
+      internalID: -4496073675412160917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_83
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1067
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b0fdb730587aa40800000000000000
+      internalID: 5379414529926957831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_84
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1062
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abf7c30415d3ae70800000000000000
+      internalID: 9125371551922256800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_85
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1054
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20de911b7f29b3170800000000000000
+      internalID: 8159276742437629186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_86
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1054
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f98d67c966f7e0800000000000000
+      internalID: -1732080701420211691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_87
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1049
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22547d60ec06b6e50800000000000000
+      internalID: 6803638100067566882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_88
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1046
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73e73ca75a635c20800000000000000
+      internalID: 3194013485519856509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_89
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1044
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da37b1178677124a0800000000000000
+      internalID: -6619878686799989843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_90
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1036
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9f3179e3da07700800000000000000
+      internalID: 536118839991335423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_91
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687abe92fc5026f90800000000000000
+      internalID: -6961995686641686650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_92
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1019
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d3e7760c4fc64b0800000000000000
+      internalID: -5445708742190547620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_93
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 451
+        width: 147
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9116a471df5b382d0800000000000000
+      internalID: -3277576005173485287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_94
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 839
+        width: 172
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71745601901bf8490800000000000000
+      internalID: -7741774581938698473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_95
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 977
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6b90a76c26268f0800000000000000
+      internalID: -548767599995275557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_96
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 995
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f540bb3d578a7ced0800000000000000
+      internalID: -2393759452907240353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_97
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 983
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab92829ec27782f0800000000000000
+      internalID: -970680963128190045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_98
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 977
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d3e95f729c9e700800000000000000
+      internalID: 570208001300774280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_99
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 974
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521231dedcc0ab8a0800000000000000
+      internalID: -6288699851084193499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_100
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 978
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de12fda9e4370af20800000000000000
+      internalID: 3431869697499275757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 979
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ebab6f8bf94ccc0800000000000000
+      internalID: -3691650177774731750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_102
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 982
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a003721fb2e79e00800000000000000
+      internalID: 1051558348290457769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_103
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 971
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1aaed746d836e70800000000000000
+      internalID: 9107278334222049755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_104
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 920
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea955e4de2bbb00f0800000000000000
+      internalID: -1149619470048339538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_105
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 972
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab0c23b1a172ed20800000000000000
+      internalID: 3306330015753046956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_106
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 974
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155691c5114f1ba10800000000000000
+      internalID: 1923586871260702033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_107
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 968
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73ad2b24a4bbf2c0800000000000000
+      internalID: -4396721994005109890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_108
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 970
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06311596211de7b60800000000000000
+      internalID: 7745858286130369376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_109
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 968
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5196bc43a77c91eb0800000000000000
+      internalID: -4748545004399793899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_110
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 969
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849d4425e88812470800000000000000
+      internalID: 8368119727478069576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_111
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 763
+        width: 176
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8076f2d9bc6023c10800000000000000
+      internalID: 2031693853482772232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_112
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 634
+        width: 93
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b98c306a1ba6390800000000000000
+      internalID: -7824246076016649468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_113
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 966
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348f30365e1864350800000000000000
+      internalID: 6000626375726463043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_114
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 955
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9bfda3a1d427470800000000000000
+      internalID: 8390853830796884439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 949
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba06f2bb11d53b60800000000000000
+      internalID: 7725310652720745136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_116
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 932
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45be415ad6748c080800000000000000
+      internalID: -9166998505266025644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_117
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 926
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e6eef1360a93720800000000000000
+      internalID: 2826466588749622787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_118
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 913
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2904d8f7fa221fd0800000000000000
+      internalID: -2372786809150895829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_119
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 912
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df6ade6e9d44de60800000000000000
+      internalID: 7986093382094712793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_120
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 909
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b30455ca1202ee50800000000000000
+      internalID: 6837029498304857013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_121
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 918
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f673b3a86a75a3eb0800000000000000
+      internalID: -4739379285058701457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_122
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 917
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc084049dcef1c5f0800000000000000
+      internalID: -738028705006976821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_123
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 920
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233ddb94ec7ebb20800000000000000
+      internalID: 3152094110515278633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_124
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 909
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b709b60d695f8c30800000000000000
+      internalID: 4363804888744396727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_125
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 915
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19472e6b2df25d090800000000000000
+      internalID: -8010443780150627183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_126
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 907
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a270118760c1ba0800000000000000
+      internalID: -6117007081124451789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_127
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 906
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883364cfc587f2650800000000000000
+      internalID: 6210314751931986824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_128
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 906
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e485ef602163e5540800000000000000
+      internalID: 4998492087482472526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_129
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 907
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027350279fe0c9160800000000000000
+      internalID: 7033513182568462112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_130
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 803
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c3bab7fdb8489a0800000000000000
+      internalID: -6231702192405136327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_131
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 904
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6953279b6e191440800000000000000
+      internalID: 4906986716442876271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_132
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 906
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db05e6bf5aac3c150800000000000000
+      internalID: 5891775551767466173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_133
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 910
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a520016f9ed5ffa0800000000000000
+      internalID: -5767458971669486167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_134
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 902
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db78514062b91600800000000000000
+      internalID: 439578565128256466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_135
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 889
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ebc74e6a6092e00800000000000000
+      internalID: 1020354104443846145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_136
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 898
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9157d85c15ab189c0800000000000000
+      internalID: -3926652539720862439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_137
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 888
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912f9d1cd471b5070800000000000000
+      internalID: 8096090377860805145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_138
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 887
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c2181bea5ecb70800000000000000
+      internalID: 8921167877635229997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_139
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 893
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5998bc2f248938500800000000000000
+      internalID: 397328605447424405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_140
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 869
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f339f6a1ed9183c80800000000000000
+      internalID: -8342889867986889921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_141
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 855
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196853410ec80e540800000000000000
+      internalID: 5035179277439829649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_142
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 848
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc76c2770e6d2ab0800000000000000
+      internalID: -5031244230433538888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_143
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 849
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76c99b60fb38d340800000000000000
+      internalID: 4888723299294103164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_144
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 839
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f63d407aed69cdd0800000000000000
+      internalID: -2465318467334752523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_145
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 794
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe06cf69b4fa6880800000000000000
+      internalID: -8616805859738644804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_146
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 568
+        width: 242
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca11e12ce820e5d0800000000000000
+      internalID: -3035381154201920818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_147
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 775
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbbc0d7a74c4b440800000000000000
+      internalID: 4950797920750058481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_148
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 644
+        width: 135
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6ed3930f6de80d0800000000000000
+      internalID: -3418558739886774623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_149
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 757
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9cf18235b8fee60800000000000000
+      internalID: 7993761052877638141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_150
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 753
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a895a5da3d761ef0800000000000000
+      internalID: -137785046942246749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_151
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 714
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd1571b0e74b0700800000000000000
+      internalID: 507578413384801726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_152
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2129707843fc0c90800000000000000
+      internalID: -7202114211622084305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_153
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 641
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99046ffde7aadf10800000000000000
+      internalID: 2295331600732522911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_154
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 668
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e326a8ddf54b560800000000000000
+      internalID: 7328587898752745051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_155
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 709
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c5a5c49bd2b85c0800000000000000
+      internalID: -4212222752601777102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_156
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 705
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593556e9279303c80800000000000000
+      internalID: -8345106945071033451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_157
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 672
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a4d2a59f9d17b90800000000000000
+      internalID: -7245770660479415806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_158
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 651
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4157a3b199065f650800000000000000
+      internalID: 6266020667258991892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_159
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 661
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5422c1d9904a8db00800000000000000
+      internalID: 853612490584236613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_160
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 643
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f804fdf6ef49e7720800000000000000
+      internalID: 2845875835064238223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_161
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 616
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44891439ea600b90800000000000000
+      internalID: -7277699447996709809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_162
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 652
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562208e7400c33110800000000000000
+      internalID: 1239545447991747173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_163
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 641
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7beada0814e83590800000000000000
+      internalID: -7694149171450025093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_164
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 574
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c064aa1a5f2820800000000000000
+      internalID: 2895632155895972596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_165
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 639
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dcf9ca6c82ff050800000000000000
+      internalID: 5836428475860241811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_166
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 638
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285ad2832f484490800000000000000
+      internalID: -7761866943835252701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_167
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 628
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c496b8fb162813900800000000000000
+      internalID: 662453976537196876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_168
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 626
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e0facdd8b175940800000000000000
+      internalID: 5284722983849365034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_169
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 627
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9355197c3c5362b10800000000000000
+      internalID: 1956310203122144569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_170
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 551
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4957a9f9b297190800000000000000
+      internalID: -7964286501536819994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_171
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 613
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a2ceb56e023fde0800000000000000
+      internalID: -1300659693623170423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_172
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 526
+        width: 26
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197c32bccd5cb1a20800000000000000
+      internalID: 3034236326055757713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_173
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 612
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981eb0b08695d4650800000000000000
+      internalID: 6218724963865321865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_174
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 607
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8505d4fb860a090800000000000000
+      internalID: -8025299365129070356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_175
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 595
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10470a9e25df2e690800000000000000
+      internalID: -7574213090735000575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_176
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 582
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d62dfa4bf15a80d0800000000000000
+      internalID: -3419830827297724716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_177
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 529
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578a29ad37d6b6ca0800000000000000
+      internalID: -6022599732322195339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_178
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 550
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9bbd420a3846390800000000000000
+      internalID: -7825985528626693636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_179
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 561
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf8ef6b8ad0f1b20800000000000000
+      internalID: 3107217286184734644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_180
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 414
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfce8991c12b86d0800000000000000
+      internalID: -2987256812441514026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_181
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 543
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb113b0787c1d5330800000000000000
+      internalID: 3701145772380852670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_182
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 506
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f481573d7a3b400800000000000000
+      internalID: 338798923627384661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_183
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 492
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4329897817d4700800000000000000
+      internalID: 526201558666458298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_184
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 487
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7548daadf954e80800000000000000
+      internalID: -8194968185367930886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_185
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 479
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf609be7af1ad300800000000000000
+      internalID: 277569133108817847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_186
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 385
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8b9c14db0c33b10800000000000000
+      internalID: 1960122181921388737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_187
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 396
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa46632e7282f3f0800000000000000
+      internalID: -868488299857687821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_188
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 384
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd9fd40124f4c680800000000000000
+      internalID: -8735588954539057739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_189
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 386
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70e3b13f552e64e0800000000000000
+      internalID: -1986609294837817221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_190
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 391
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f47b8eb5068bb70800000000000000
+      internalID: 8914981410242514708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_191
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 363
+        width: 71
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2adeca74821320800000000000000
+      internalID: 2527228003899550538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_192
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 376
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f155a759fadf5c1d0800000000000000
+      internalID: -3330977418801687265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_193
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 313
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ecb068da4390080800000000000000
+      internalID: -9220780842181472691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Velho 1_194
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 313
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdff3f3601b03f00800000000000000
+      internalID: 1094569349840109051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Velho 1_0: 1019206114843434834
+      Velho 1_1: 4235464475054023246
+      Velho 1_10: 5478696208343873661
+      Velho 1_100: 3431869697499275757
+      Velho 1_101: -3691650177774731750
+      Velho 1_102: 1051558348290457769
+      Velho 1_103: 9107278334222049755
+      Velho 1_104: -1149619470048339538
+      Velho 1_105: 3306330015753046956
+      Velho 1_106: 1923586871260702033
+      Velho 1_107: -4396721994005109890
+      Velho 1_108: 7745858286130369376
+      Velho 1_109: -4748545004399793899
+      Velho 1_11: 851046490919988114
+      Velho 1_110: 8368119727478069576
+      Velho 1_111: 2031693853482772232
+      Velho 1_112: -7824246076016649468
+      Velho 1_113: 6000626375726463043
+      Velho 1_114: 8390853830796884439
+      Velho 1_115: 7725310652720745136
+      Velho 1_116: -9166998505266025644
+      Velho 1_117: 2826466588749622787
+      Velho 1_118: -2372786809150895829
+      Velho 1_119: 7986093382094712793
+      Velho 1_12: -4579796982571221325
+      Velho 1_120: 6837029498304857013
+      Velho 1_121: -4739379285058701457
+      Velho 1_122: -738028705006976821
+      Velho 1_123: 3152094110515278633
+      Velho 1_124: 4363804888744396727
+      Velho 1_125: -8010443780150627183
+      Velho 1_126: -6117007081124451789
+      Velho 1_127: 6210314751931986824
+      Velho 1_128: 4998492087482472526
+      Velho 1_129: 7033513182568462112
+      Velho 1_13: 9087529210226974767
+      Velho 1_130: -6231702192405136327
+      Velho 1_131: 4906986716442876271
+      Velho 1_132: 5891775551767466173
+      Velho 1_133: -5767458971669486167
+      Velho 1_134: 439578565128256466
+      Velho 1_135: 1020354104443846145
+      Velho 1_136: -3926652539720862439
+      Velho 1_137: 8096090377860805145
+      Velho 1_138: 8921167877635229997
+      Velho 1_139: 397328605447424405
+      Velho 1_14: 1355126232354942503
+      Velho 1_140: -8342889867986889921
+      Velho 1_141: 5035179277439829649
+      Velho 1_142: -5031244230433538888
+      Velho 1_143: 4888723299294103164
+      Velho 1_144: -2465318467334752523
+      Velho 1_145: -8616805859738644804
+      Velho 1_146: -3035381154201920818
+      Velho 1_147: 4950797920750058481
+      Velho 1_148: -3418558739886774623
+      Velho 1_149: 7993761052877638141
+      Velho 1_15: -5624741273177063909
+      Velho 1_150: -137785046942246749
+      Velho 1_151: 507578413384801726
+      Velho 1_152: -7202114211622084305
+      Velho 1_153: 2295331600732522911
+      Velho 1_154: 7328587898752745051
+      Velho 1_155: -4212222752601777102
+      Velho 1_156: -8345106945071033451
+      Velho 1_157: -7245770660479415806
+      Velho 1_158: 6266020667258991892
+      Velho 1_159: 853612490584236613
+      Velho 1_16: 3200444254259858361
+      Velho 1_160: 2845875835064238223
+      Velho 1_161: -7277699447996709809
+      Velho 1_162: 1239545447991747173
+      Velho 1_163: -7694149171450025093
+      Velho 1_164: 2895632155895972596
+      Velho 1_165: 5836428475860241811
+      Velho 1_166: -7761866943835252701
+      Velho 1_167: 662453976537196876
+      Velho 1_168: 5284722983849365034
+      Velho 1_169: 1956310203122144569
+      Velho 1_17: 8255325356934119102
+      Velho 1_170: -7964286501536819994
+      Velho 1_171: -1300659693623170423
+      Velho 1_172: 3034236326055757713
+      Velho 1_173: 6218724963865321865
+      Velho 1_174: -8025299365129070356
+      Velho 1_175: -7574213090735000575
+      Velho 1_176: -3419830827297724716
+      Velho 1_177: -6022599732322195339
+      Velho 1_178: -7825985528626693636
+      Velho 1_179: 3107217286184734644
+      Velho 1_18: 9122736127085879308
+      Velho 1_180: -2987256812441514026
+      Velho 1_181: 3701145772380852670
+      Velho 1_182: 338798923627384661
+      Velho 1_183: 526201558666458298
+      Velho 1_184: -8194968185367930886
+      Velho 1_185: 277569133108817847
+      Velho 1_186: 1960122181921388737
+      Velho 1_187: -868488299857687821
+      Velho 1_188: -8735588954539057739
+      Velho 1_189: -1986609294837817221
+      Velho 1_19: 8121779068692639075
+      Velho 1_190: 8914981410242514708
+      Velho 1_191: 2527228003899550538
+      Velho 1_192: -3330977418801687265
+      Velho 1_193: -9220780842181472691
+      Velho 1_194: 1094569349840109051
+      Velho 1_2: -4391125025743926119
+      Velho 1_20: -6997582002576569327
+      Velho 1_21: -3406195721078848673
+      Velho 1_22: -1030702936258248837
+      Velho 1_23: 9017764845435807457
+      Velho 1_24: 2528915196884518569
+      Velho 1_25: 1988129380987349656
+      Velho 1_26: 3627467236025324277
+      Velho 1_27: 1440672828631807881
+      Velho 1_28: 3983194882837512861
+      Velho 1_29: -6404542195011942898
+      Velho 1_3: -6065567544569112252
+      Velho 1_30: 7292247813395078683
+      Velho 1_31: 1393302128646816680
+      Velho 1_32: 2231798346564303919
+      Velho 1_33: -1208170677247952383
+      Velho 1_34: -5772098083234802530
+      Velho 1_35: -6100400712059845195
+      Velho 1_36: -8958338210864008999
+      Velho 1_37: -1762805795058228701
+      Velho 1_38: -5050567442422384476
+      Velho 1_39: 4084322703870475159
+      Velho 1_4: -5678126610972738811
+      Velho 1_40: -4398415504136991594
+      Velho 1_41: 3515615176742765480
+      Velho 1_42: 6020934170038306171
+      Velho 1_43: 8548429454894278554
+      Velho 1_44: -8698914178847564626
+      Velho 1_45: -8516897018393552824
+      Velho 1_46: 7342605665045856991
+      Velho 1_47: -3225488262638692568
+      Velho 1_48: 2841084069378615830
+      Velho 1_49: 6492377473106927883
+      Velho 1_5: -8257688204902127515
+      Velho 1_50: 1367373054053974927
+      Velho 1_51: -2930940499026722592
+      Velho 1_52: -8953916414522414981
+      Velho 1_53: 8204299159034733933
+      Velho 1_54: 6089410959434731990
+      Velho 1_55: 8213873663813471633
+      Velho 1_56: -3629508215859254308
+      Velho 1_57: 3267216812873264000
+      Velho 1_58: 8241072949048122905
+      Velho 1_59: -116682991144945926
+      Velho 1_6: -7766223007803002651
+      Velho 1_60: 7112516559672792844
+      Velho 1_61: 8224337174077570995
+      Velho 1_62: -434093532414792126
+      Velho 1_63: -1175780396464167008
+      Velho 1_64: -3371362919256491934
+      Velho 1_65: 9125522993333033833
+      Velho 1_66: 2965242981640290293
+      Velho 1_67: 646444556320552286
+      Velho 1_68: 3959068970061358814
+      Velho 1_69: 6871027586743601197
+      Velho 1_7: -8619923242493691120
+      Velho 1_70: 480846898691104838
+      Velho 1_71: -1094435786432790728
+      Velho 1_72: -1597383913536640055
+      Velho 1_73: -4343763154494346584
+      Velho 1_74: 2774508504226979076
+      Velho 1_75: 7658119949528729106
+      Velho 1_76: 1174380284087967648
+      Velho 1_77: 5364849752719038131
+      Velho 1_78: -4599561683394797118
+      Velho 1_79: -7802266559329299410
+      Velho 1_8: -4157597131455691791
+      Velho 1_80: -6423380343608128823
+      Velho 1_81: -1177991086088865215
+      Velho 1_82: -4496073675412160917
+      Velho 1_83: 5379414529926957831
+      Velho 1_84: 9125371551922256800
+      Velho 1_85: 8159276742437629186
+      Velho 1_86: -1732080701420211691
+      Velho 1_87: 6803638100067566882
+      Velho 1_88: 3194013485519856509
+      Velho 1_89: -6619878686799989843
+      Velho 1_9: 4153227817672540602
+      Velho 1_90: 536118839991335423
+      Velho 1_91: -6961995686641686650
+      Velho 1_92: -5445708742190547620
+      Velho 1_93: -3277576005173485287
+      Velho 1_94: -7741774581938698473
+      Velho 1_95: -548767599995275557
+      Velho 1_96: -2393759452907240353
+      Velho 1_97: -970680963128190045
+      Velho 1_98: 570208001300774280
+      Velho 1_99: -6288699851084193499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
