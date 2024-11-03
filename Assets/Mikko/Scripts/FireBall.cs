@@ -32,10 +32,10 @@ public class FireBall : MonoBehaviour
     {
         randomFireBallLife = Random.Range(0.3f,1f);
 
-        fireBallLife = FindObjectOfType<DragonShooter>().fireBallLife*randomFireBallLife;
-        fireBallSpeed = FindObjectOfType<DragonShooter>().fireBallSpeed;
-        fireBallMinSize=FindObjectOfType<DragonShooter>().fireballSizeMinMax.x;
-        fireBallMaxSize=FindObjectOfType<DragonShooter>().fireballSizeMinMax.y*randomFireBallLife;
+        fireBallLife = FindFirstObjectByType<DragonShooter>().fireBallLife*randomFireBallLife;
+        fireBallSpeed = FindFirstObjectByType<DragonShooter>().fireBallCurrentSpeed;
+        fireBallMinSize=FindFirstObjectByType<DragonShooter>().fireballSizeMinMax.x;
+        fireBallMaxSize=FindFirstObjectByType<DragonShooter>().fireballSizeMinMax.y*randomFireBallLife;
         
         localScale = new Vector3(fireBallMinSize,fireBallMinSize,fireBallMinSize);
         transform.localScale = localScale;

@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 388325335}
   - component: {fileID: 388325336}
   - component: {fileID: 388325337}
+  - component: {fileID: 388325338}
   m_Layer: 0
   m_Name: Dragon_testi
   m_TagString: Untagged
@@ -312,8 +313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a45051fb8653743890b8a9de9c244d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.3
+  speed: 1
   maxSpeed: 3
+  workingSpeed: 0
   rotateSpeed: 50
   leftTurn: 276
   rightTurn: 275
@@ -369,9 +371,9 @@ MonoBehaviour:
   timeAccelerating: 0
   bodyBones: []
   neckBones:
-  - {fileID: 508446104}
-  - {fileID: 964618124}
   - {fileID: 363926990}
+  - {fileID: 964618124}
+  - {fileID: 508446104}
   neckSpeed: 0
 --- !u!114 &388325337
 MonoBehaviour:
@@ -389,12 +391,39 @@ MonoBehaviour:
   fireBallPrefab: {fileID: 5017686846075693704, guid: bece556dc26ac4eef8721e6b5ae916c8, type: 3}
   shootingKey: 32
   fireBallLife: 2
-  fireBallSpeed: 4
-  fireBallRotationSpeed: 0
-  fireballSizeMinMax: {x: 0.3, y: 3}
+  fireBallSetSpeed: 2
+  fireBallCurrentSpeed: 0
+  fireballSizeMinMax: {x: 0.3, y: 4}
   shootingDuration: 5
   workingShootingDuration: 0
   shootingFrequenzy: 0.005
+--- !u!50 &388325338
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388325334}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &420573665
 GameObject:
   m_ObjectHideFlags: 0
