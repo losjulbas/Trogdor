@@ -1,10 +1,11 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class DragonMovement : MonoBehaviour
 {
     public float speed;
     public float maxSpeed;
-    float workingSpeed;
+    public float workingSpeed;
     public float rotateSpeed;
     public KeyCode leftTurn = KeyCode.LeftArrow;
     public KeyCode rightTurn = KeyCode.RightArrow;
@@ -37,10 +38,13 @@ public class DragonMovement : MonoBehaviour
             timeAccelerating += Time.deltaTime/accelerationTime;
             float curveAccelerate = smoothTurningCurve.Evaluate(timeAccelerating)*(maxSpeed-workingSpeed);
             workingSpeed+= curveAccelerate;
-        } else if (workingSpeed>speed){
-            timeAccelerating -= Time.deltaTime/accelerationTime;
+        } 
+        
+        
+        else if (workingSpeed>speed){
+            workingSpeed -= Time.deltaTime;
             //float curveAccelerate = smoothTurningCurve.Evaluate(timeAccelerating)*(maxSpeed-workingSpeed);
-            workingSpeed -= timeAccelerating;
+            //workingSpeed -= timeAccelerating;
         } else {
             timeAccelerating = 0;
         }
@@ -85,12 +89,33 @@ public class DragonMovement : MonoBehaviour
     }
 
     void TurnNeckLeft(){
-            /* //keskeneräinen luiden pyöritys
-            foreach (Transform t in bodyBones) {
-                //t.Rotate(Vector3.up, neckSpeed * Time.deltaTime);
-                Quaternion neckRotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + Time.deltaTime * neckSpeed);
-                t.rotation = neckRotation;
+            
+            
+        for (int i = 0; i < neckBones.Length; i++)
+        {
+            
+            neckBones[i].localRotation *= Quaternion.Euler(0, 0, neckSpeed * Time.deltaTime);
+            /*    
+            // Calculate an incremental rotation to the left
+            Quaternion targetRotation = Quaternion.Euler(0, 0, neckBones[i].eulerAngles.z + neckSpeed * Time.deltaTime*(i+1));
+
+            // Smoothly rotate the bone towards the target rotation
+            neckBones[i].rotation = Quaternion.Lerp(neckBones[i].rotation, targetRotation, Time.deltaTime * neckSpeed*(i+1));
+            */
+        }
+            
+            
+            
+            // vanha
+            /*for (int i =0; i<neckBones.Length; i++){
+                
+                Quaternion neckRotation = Quaternion.Euler(0,0,neckBones[i].eulerAngles.z);
+                neckRotation.z += Time.deltaTime*neckSpeed;
+                neckBones[i].rotation = neckRotation;
+
             }*/
+            
+
     }
 
     void TurnNeckRight(){
@@ -104,6 +129,14 @@ public class DragonMovement : MonoBehaviour
             //float angleOffset = i * 5f; 
             //Quaternion boneRotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + angleOffset);
             //bones[i].rotation = boneRotation;
+
+
+                        /* //keskeneräinen luiden pyöritys
+            foreach (Transform t in bodyBones) {
+                //t.Rotate(Vector3.up, neckSpeed * Time.deltaTime);
+                Quaternion neckRotation = Quaternion.Euler(0, 0, transform.eulerAngles.z + Time.deltaTime * neckSpeed);
+                t.rotation = neckRotation;
+            }*/
         }
 
     }
