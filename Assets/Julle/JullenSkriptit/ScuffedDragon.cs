@@ -6,9 +6,9 @@ public class ScuffedDragon : MonoBehaviour
 
     [SerializeField] private int hitpoints = 5;
     [SerializeField] private int armorHitpoints;
-    public GameObject fireballPrefab;
+    //public GameObject fireballPrefab;
     GameManager gameManager;
-    public float speed;
+    //public float speed;
     public float powerupDuration = 2f;
     float timer = 0f;
     PowerupType currentPowerup = PowerupType.None;
@@ -37,13 +37,13 @@ public class ScuffedDragon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // TÄTÄ EI TARVITA
-        {
-            print("Fireball spawned!");
-            var newFireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
-            Vector2 direction = transform.up;  // Use the direction the dragon is facing
-            newFireball.GetComponent<Fireball>().Initialize(direction);
-        }
+        //if (Input.GetKeyDown(KeyCode.Space)) // TÄTÄ EI TARVITA
+        //{
+        //    print("Fireball spawned!");
+        //    var newFireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
+        //    Vector2 direction = transform.up;  // Use the direction the dragon is facing
+        //    newFireball.GetComponent<Fireball>().Initialize(direction);
+        //}
 
         timer += Time.deltaTime;
         if (currentPowerup != PowerupType.None && timer > powerupDuration)
