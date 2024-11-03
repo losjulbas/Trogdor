@@ -15,7 +15,7 @@ public class DragonShooter : MonoBehaviour
     
     
     public Vector2 fireballSizeMinMax;
-    public float shootingDuration; // tämä on kuinka paljon staminaa (eli ampuma-aikaa) lohikäärmeellä on
+    public float maxShootingDuration; // tämä on kuinka paljon staminaa (eli ampuma-aikaa) lohikäärmeellä on
     public float workingShootingDuration;
 
     public float shootingFrequenzy; // tämä kuinka tiiviisti tulipalloja tulee, x sekunnin välein
@@ -26,7 +26,7 @@ public class DragonShooter : MonoBehaviour
 
 void Start(){
     workingShootingFrequenzy = shootingFrequenzy;
-    workingShootingDuration = shootingDuration;
+    workingShootingDuration = maxShootingDuration;
     
     dragonMovement = GetComponent<DragonMovement>();
   
@@ -52,7 +52,7 @@ void Start(){
             
         } 
         
-        if (!Input.GetKey(shootingKey) && workingShootingDuration <shootingDuration){
+        if (!Input.GetKey(shootingKey) && workingShootingDuration <maxShootingDuration){
             workingShootingDuration += Time.deltaTime;
         }
         
