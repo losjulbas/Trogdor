@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7245479338760863373}
   - component: {fileID: 7231434134685295086}
   - component: {fileID: 1361435776914354151}
-  - component: {fileID: 4706762556279039890}
+  - component: {fileID: 442053117791944588}
   m_Layer: 10
-  m_Name: SheepFarm
+  m_Name: Torni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.07, z: 0}
-  m_LocalScale: {x: 5.55, y: 2.42, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,9 +77,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 0.6933962, a: 1}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: d5002fcd96aa0c2418faf0481cc95d78, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 40.96, y: 40.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -135,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4706762556279039890
+--- !u!114 &442053117791944588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,9 +144,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8778489809537232603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97b52e26d6331994492477e97d88fa81, type: 3}
+  m_Script: {fileID: 11500000, guid: dc2d97f233ba49748a741123eba6706c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tickTime: 2
+  arrowPrefab: {fileID: 3495837827112988055, guid: bd3977575f6e073469258c065368db7c, type: 3}
+  sightDistance: 3.38
   hitpoints: 2
-  undestroyedSheepfarm: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  destroyedSheepfarm: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  undestroyedVillage: {fileID: 21300000, guid: f2d19078d1d7efb4bb6f1ccf24abcb6d, type: 3}
+  destroyedVillage: {fileID: 21300000, guid: 38657da9344b25745b94cc79e6c6bb6b, type: 3}
+  smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
+  soulEffectPrefab: {fileID: 5642766282230003982, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c, type: 3}
