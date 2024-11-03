@@ -37,7 +37,7 @@ public class ScuffedDragon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)) // TÄTÄ EI TARVITA
         {
             print("Fireball spawned!");
             var newFireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
