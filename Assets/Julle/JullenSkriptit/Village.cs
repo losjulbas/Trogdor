@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using static UnityEditor.Experimental.GraphView.GraphView;
 using static UnityEngine.Rendering.VirtualTexturing.Debugging;
+using System.Collections;
 
 public class Village : MonoBehaviour, IDamageable
 {
@@ -17,6 +18,8 @@ public class Village : MonoBehaviour, IDamageable
     SpriteRenderer spriteRenderer;
     BoxCollider2D boxCollider;
     ScoreManager scoreManager;
+    public GameObject smokeEffectPrefab;
+    public GameObject soulEffectPrefab;
 
     void Awake()
     {
@@ -84,10 +87,27 @@ public class Village : MonoBehaviour, IDamageable
 
     void HandleDestruction()
     {
-        spriteRenderer.sprite = destroyedVillage;
-        this.enabled = false; //disable this script
-
+        StartCoroutine(DestructionSequence());
     }
+
+    private IEnumerator DestructionSequence()
+    {
+        GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
+        Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
+        yield return new WaitForSeconds(1f);  // Wait for smoke effect to finish
+
+        spriteRenderer.sprite = destroyedVillage;
+
+        GameObject soulEffect = Instantiate(soulEffectPrefab);
+        soulEffect.transform.position = transform.position;
+        Destroy(soulEffect, 2f); 
+        yield return new WaitForSeconds(10f);  
+
+        //// Disable this script
+        this.enabled = false;
+    }
+
+
 
     public void TakeDamage(int amount)
     {

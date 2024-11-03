@@ -1,11 +1,17 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ScuffedDragon : MonoBehaviour
 {
 
-    [SerializeField] private int hitpoints = 2;
+    [SerializeField] private int hitpoints = 5;
+    [SerializeField] private int armorHitpoints;
     public GameObject fireballPrefab;
     GameManager gameManager;
+    public float speed;
+    public float powerupDuration = 2f;
+    float timer = 0f;
+    PowerupType currentPowerup = PowerupType.None;
 
     private void Awake()
     {
@@ -14,11 +20,16 @@ public class ScuffedDragon : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (hitpoints > 0)
+        if (currentPowerup == PowerupType.Armor && armorHitpoints > 0)
         {
+            armorHitpoints--;
+        }
+        else if (hitpoints > 0)
+        {
+            
             hitpoints--;
         }
-        if (hitpoints <= 0)
+        else if (hitpoints <= 0)
         {
             HandleDestruction();
         }
@@ -33,7 +44,38 @@ public class ScuffedDragon : MonoBehaviour
             Vector2 direction = transform.up;  // Use the direction the dragon is facing
             newFireball.GetComponent<Fireball>().Initialize(direction);
         }
+
+        timer += Time.deltaTime;
+        if (currentPowerup != PowerupType.None && timer > powerupDuration)
+        {
+            EndPowerup(currentPowerup);
+            currentPowerup = PowerupType.None;
+        }
     }
+
+
+
+    public void PowerupActivated(PowerupType whichType)
+    {
+        timer = 0f;
+        EndPowerup(currentPowerup);
+        StartPowerup(whichType);
+        currentPowerup = whichType;
+    }
+    void StartPowerup(PowerupType powerup)
+    {
+        if (powerup == PowerupType.Armor)
+        {
+            print("Armor activated!");
+            armorHitpoints += 10;
+        }
+    }
+    void EndPowerup(PowerupType powerup)
+    {
+        print("Armor deactivated!");
+        armorHitpoints = 0;
+    }
+
     void HandleDestruction()
     {
         gameManager.GameLost();
