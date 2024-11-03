@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -8,6 +9,13 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] TMP_Text gameOverText;
+    ScuffedDragon scuffedDragon;
+    public List<PowerupType> paddlePowerups;
+
+    private void Awake()
+    {
+        scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
+    }
 
 
     void Update()
@@ -46,5 +54,20 @@ public class GameManager : MonoBehaviour
     public void GameLost()
     {
         GameOver(false);
+    }
+
+
+    public void PowerupActivated(PowerupType whichType)
+    {
+        if (whichType == PowerupType.Armor)
+        {
+
+            scuffedDragon.PowerupActivated(PowerupType.Armor);
+
+        }
+        else
+        {
+            Debug.LogError("unknown powerup type, can't handle");
+        }
     }
 }
