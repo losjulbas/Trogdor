@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using TMPro;
@@ -14,10 +15,14 @@ public class GameManager : MonoBehaviour
     ScuffedDragon scuffedDragon;
     public List<PowerupType> powerups;
     [SerializeField] private float roundTimer;
+    [SerializeField] private float gameOverDelay = 2f;
+    SimpleAudioSource audioSource;
+
 
     private void Awake()
     {
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
         roundTimer = 0;
     }
 
@@ -37,13 +42,11 @@ public class GameManager : MonoBehaviour
     {
         if (outofLives)
         {
-            //TODO: Play audio
 
             gameOverText.text = "You died!\nPress R to restart";
         }
         else
         {
-            //TODO: Play audio
             gameOverText.text = "You win!\nPress R to restart";
         }
 
@@ -60,13 +63,19 @@ public class GameManager : MonoBehaviour
 
     public void GameWon()
     {
-
-        GameOver(false);
+        StartCoroutine(DelayedGameOver(false));
     }
 
     public void GameLost()
     {
-        GameOver(true);
+        StartCoroutine(DelayedGameOver(true));
+    }
+
+    private IEnumerator DelayedGameOver(bool outofLives)
+    {
+        yield return new WaitForSeconds(gameOverDelay);
+        audioSource.PlaySound("Trumpets");
+        GameOver(outofLives);
     }
 
 

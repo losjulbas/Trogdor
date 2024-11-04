@@ -15,9 +15,11 @@ public class SheepFarm : MonoBehaviour, IDamageable
     public GameObject soulEffectPrefab;
     public bool canSpawnPowerup = false;
     public bool isSheepfarm = false;
+    public bool isCastle = false;
     public float powerupChance = 0.9f;
     public GameObject powerupToSpawn;
     SimpleAudioSource audioSource;
+    GameManager gameManager;
 
     void Awake()
     {
@@ -25,6 +27,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
         scoreManager = FindAnyObjectByType<ScoreManager>();
         polygonCollider = GetComponent<PolygonCollider2D>();
         audioSource = FindAnyObjectByType<SimpleAudioSource>();
+        gameManager = FindAnyObjectByType<GameManager>();
     }
 
     void HandleDestruction()
@@ -48,6 +51,11 @@ public class SheepFarm : MonoBehaviour, IDamageable
         if (isSheepfarm == true)
         {
             audioSource.PlaySound("Sheep");
+        }
+
+        if (isCastle == true)
+        {
+            gameManager.GameWon();
         }
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);

@@ -747,6 +747,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4706762556279039890, guid: a7fce704a1658624181755012b7b7458, type: 3}
+      propertyPath: hitpoints
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: a7fce704a1658624181755012b7b7458, type: 3}
+      propertyPath: isSheepfarm
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7245479338760863373, guid: a7fce704a1658624181755012b7b7458, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.14
@@ -1081,6 +1089,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4706762556279039890, guid: cc267ea5314ff71469ed0c3e674f5ee9, type: 3}
+      propertyPath: isCastle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: cc267ea5314ff71469ed0c3e674f5ee9, type: 3}
+      propertyPath: hitpoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7245479338760863373, guid: cc267ea5314ff71469ed0c3e674f5ee9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.14
@@ -1714,11 +1730,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1399871257358589040, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.48
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: 1399871257358589040, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.58
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 1399871257358589040, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1751,6 +1767,10 @@ PrefabInstance:
     - target: {fileID: 1399871257358589040, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077614009430231453, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6077614009430231453, guid: fcdf864a69678f7499bc3d437360014d, type: 3}
       propertyPath: hitpoints
