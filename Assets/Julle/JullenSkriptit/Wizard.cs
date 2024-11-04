@@ -1,23 +1,34 @@
 using UnityEngine;
 using System.Collections;
 
-public class Wizard : MonoBehaviour
+public class Wizard : MonoBehaviour, IDamageable
 {
 
     public float tickTime = 2f;
     float timer = 0f;
-    public GameObject spellPrefab;
     [SerializeField] float sightDistance;
     ScuffedDragon scuffedDragon;
 
-    BoxCollider2D boxCollider;
+    SpriteRenderer spriteRenderer;
+    PolygonCollider2D polygonCollider;
+
     ScoreManager scoreManager;
+    public GameObject smokeEffectPrefab;
+    public GameObject soulEffectPrefab;
+    public GameObject spellPrefab;
+
+    [SerializeField] private int hitpoints = 2;
+
+    public Sprite undestroyedWizard;
+    public Sprite destroyedWizard;
+
 
     void Awake()
     {
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        polygonCollider = GetComponent<PolygonCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -73,5 +84,43 @@ public class Wizard : MonoBehaviour
         var direction = (pos - transform.position).normalized;
         var targetRot = Quaternion.LookRotation(Vector3.forward, direction);
         transform.rotation = targetRot;
+    }
+
+    void HandleDestruction()
+    {
+        StartCoroutine(DestructionSequence());
+    }
+
+    private IEnumerator DestructionSequence()
+    {
+        GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
+        Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
+        yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
+
+        spriteRenderer.sprite = destroyedWizard;
+
+        GameObject soulEffect = Instantiate(soulEffectPrefab);
+        soulEffect.transform.position = transform.position;
+        Destroy(soulEffect, 4f);
+        yield return new WaitForSeconds(0.1f);
+
+        // Disable this script and collider
+        polygonCollider.enabled = false;
+        this.enabled = false;
+    }
+
+
+
+    public void TakeDamage(int amount)
+    {
+        if (hitpoints > 0)
+        {
+            hitpoints -= amount;
+            scoreManager.AddScore(100);
+        }
+        if (hitpoints <= 0)
+        {
+            HandleDestruction();
+        }
     }
 }

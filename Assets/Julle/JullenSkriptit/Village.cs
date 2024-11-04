@@ -12,7 +12,8 @@ public class Village : MonoBehaviour, IDamageable
     public GameObject arrowPrefab;
     [SerializeField] float sightDistance;
     ScuffedDragon scuffedDragon;
-    [SerializeField] private int hitpoints = 2;
+    public int hitpoints = 2;
+    int maxHitpoints; //Mikko
     public Sprite undestroyedVillage;
     public Sprite destroyedVillage;
     SpriteRenderer spriteRenderer;
@@ -21,8 +22,15 @@ public class Village : MonoBehaviour, IDamageable
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
 
+    public HealthBar healthBar; // Mikko
+
+    void Start() {
+        healthBar.UpdateBar(hitpoints / (float)maxHitpoints); //mikko
+    }
+
     void Awake()
     {
+        maxHitpoints = hitpoints; //Mikko
         spriteRenderer = GetComponent<SpriteRenderer>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -115,9 +123,12 @@ public class Village : MonoBehaviour, IDamageable
         {
             hitpoints -= amount;
             scoreManager.AddScore(100);
+            healthBar.RevealTheBar(); // Mikko
+            healthBar.UpdateBar(hitpoints / (float)maxHitpoints);// Mikko
         }
         if (hitpoints <= 0)
         {
+            healthBar.HideTheBar(); // Mikko
             HandleDestruction();
         }
     }

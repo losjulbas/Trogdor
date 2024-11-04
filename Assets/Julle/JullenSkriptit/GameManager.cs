@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -9,12 +11,19 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] TMP_Text gameOverText;
+    [SerializeField] TMP_Text roundTimerText;
     ScuffedDragon scuffedDragon;
-    public List<PowerupType> paddlePowerups;
+    public List<PowerupType> powerups;
+    [SerializeField] private float roundTimer;
+    [SerializeField] private float gameOverDelay = 2f;
+    SimpleAudioSource audioSource;
+
 
     private void Awake()
     {
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
+        roundTimer = 0;
     }
 
 
@@ -25,21 +34,28 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        roundTimer += Time.deltaTime;
     }
 
     void GameOver(bool outofLives)
     {
         if (outofLives)
         {
-            //TODO: Play audio
 
             gameOverText.text = "You died!\nPress R to restart";
         }
         else
         {
-            //TODO: Play audio
             gameOverText.text = "You win!\nPress R to restart";
         }
+
+        // Calculate minutes and seconds
+        int minutes = Mathf.FloorToInt(roundTimer / 60);  // Convert total seconds to minutes
+        int seconds = Mathf.FloorToInt(roundTimer % 60);  // Get remaining seconds
+
+        // Display the time in "mm:ss" format
+        roundTimerText.text = "Round Time: " + minutes.ToString("0") + ":" + seconds.ToString("00");
 
         Time.timeScale = 0;
         //TODO: game over UI
@@ -47,13 +63,19 @@ public class GameManager : MonoBehaviour
 
     public void GameWon()
     {
-
-        GameOver(true);
+        StartCoroutine(DelayedGameOver(false));
     }
 
     public void GameLost()
     {
-        GameOver(false);
+        StartCoroutine(DelayedGameOver(true));
+    }
+
+    private IEnumerator DelayedGameOver(bool outofLives)
+    {
+        yield return new WaitForSeconds(gameOverDelay);
+        audioSource.PlaySound("Trumpets");
+        GameOver(outofLives);
     }
 
 
