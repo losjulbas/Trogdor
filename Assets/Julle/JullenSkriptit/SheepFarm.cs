@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class SheepFarm : MonoBehaviour, IDamageable
 {
@@ -13,14 +14,17 @@ public class SheepFarm : MonoBehaviour, IDamageable
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
     public bool canSpawnPowerup = false;
+    public bool isSheepfarm = false;
     public float powerupChance = 0.9f;
     public GameObject powerupToSpawn;
+    SimpleAudioSource audioSource;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
         polygonCollider = GetComponent<PolygonCollider2D>();
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
     }
 
     void HandleDestruction()
@@ -30,11 +34,21 @@ public class SheepFarm : MonoBehaviour, IDamageable
 
     private IEnumerator DestructionSequence()
     {
+
+        if (canSpawnPowerup)
+        {
+            audioSource.PlaySound("DestroyedVillage");
+        }
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
         yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
 
         spriteRenderer.sprite = destroyedSheepfarm;
+
+        if (isSheepfarm == true)
+        {
+            audioSource.PlaySound("Sheep");
+        }
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);
         soulEffect.transform.position = transform.position;

@@ -13,12 +13,16 @@ public class ScuffedDragon : MonoBehaviour
     float timer = 0f;
     PowerupType currentPowerup = PowerupType.None;
     public GameObject armorPowerupSprite; // Reference to the armor sprite
-
+    SimpleAudioSource audioSource;
+    public GameObject hitmarkEffect;
+    BoxCollider2D boxCollider;
 
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
         armorPowerupSprite.SetActive(false);
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -35,6 +39,14 @@ public class ScuffedDragon : MonoBehaviour
         else if (hitpoints <= 0)
         {
             HandleDestruction();
+        }
+
+        // Instantiate hitmarkEffect at the contact point
+        if (collision.contacts.Length > 0)  // Check if there are any contact points
+        {
+            Vector2 contactPoint = collision.contacts[0].point;  // Get the first contact point
+            GameObject soulEffect = Instantiate(hitmarkEffect, contactPoint, Quaternion.identity);
+            Destroy(soulEffect, 2f);  // Destroy the effect after a delay if needed
         }
     }
 
@@ -83,6 +95,7 @@ public class ScuffedDragon : MonoBehaviour
 
     void HandleDestruction()
     {
+        audioSource.PlaySound("DeadDragon");
         gameManager.GameLost();
         Destroy(gameObject);
     }
