@@ -5,7 +5,8 @@ using UnityEngine.Audio;
 
 public class SheepFarm : MonoBehaviour, IDamageable
 {
-    [SerializeField] private int hitpoints = 2;
+    public int hitpoints = 2;
+    int maxHitpoints; // Mikko
     public Sprite undestroyedSheepfarm;
     public Sprite destroyedSheepfarm;
     SpriteRenderer spriteRenderer;
@@ -21,8 +22,17 @@ public class SheepFarm : MonoBehaviour, IDamageable
     SimpleAudioSource audioSource;
     GameManager gameManager;
 
+    public HealthBar healthBar; //Mikko
+
+
+    void Start() {
+        healthBar.UpdateBar(hitpoints/(float)maxHitpoints); //mikko
+    }
+
+
     void Awake()
     {
+        maxHitpoints = hitpoints; //Mikko
         spriteRenderer = GetComponent<SpriteRenderer>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
         polygonCollider = GetComponent<PolygonCollider2D>();
@@ -75,15 +85,20 @@ public class SheepFarm : MonoBehaviour, IDamageable
         this.enabled = false;
     }
 
+
     public void TakeDamage(int amount)
     {
+        
         if (hitpoints > 0)
         {
             hitpoints -= amount;
             scoreManager.AddScore(50);
+            healthBar.RevealTheBar(); // Mikko
+            healthBar.UpdateBar(hitpoints / (float)maxHitpoints);// Mikko
         }
         if (hitpoints <= 0)
         {
+            healthBar.HideTheBar(); // Mikko
             HandleDestruction();
         }
     }

@@ -12,21 +12,28 @@ public class Village : MonoBehaviour, IDamageable
     public GameObject arrowPrefab;
     [SerializeField] float sightDistance;
     ScuffedDragon scuffedDragon;
-    [SerializeField] private int hitpoints = 2;
+    public int hitpoints = 2;
+    int maxHitpoints; //Mikko
     public Sprite undestroyedVillage;
     public Sprite destroyedVillage;
     SpriteRenderer spriteRenderer;
-    PolygonCollider2D polygonCollider;
+    BoxCollider2D boxCollider;
     ScoreManager scoreManager;
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
 
+    public HealthBar healthBar; // Mikko
+
+    void Start() {
+        healthBar.UpdateBar(hitpoints / (float)maxHitpoints); //mikko
+    }
 
     void Awake()
     {
+        maxHitpoints = hitpoints; //Mikko
         spriteRenderer = GetComponent<SpriteRenderer>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
-        polygonCollider = GetComponent<PolygonCollider2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
     }
 
@@ -95,17 +102,16 @@ public class Village : MonoBehaviour, IDamageable
     {
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
-        yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
+        yield return new WaitForSeconds(1f);  // Wait for smoke effect to finish
 
         spriteRenderer.sprite = destroyedVillage;
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);
         soulEffect.transform.position = transform.position;
-        Destroy(soulEffect, 4f);
-        yield return new WaitForSeconds(0.1f);
+        Destroy(soulEffect, 2f); 
+        yield return new WaitForSeconds(10f);  
 
-        // Disable this script and collider
-        polygonCollider.enabled = false;
+        //// Disable this script
         this.enabled = false;
     }
 
@@ -117,9 +123,12 @@ public class Village : MonoBehaviour, IDamageable
         {
             hitpoints -= amount;
             scoreManager.AddScore(100);
+            healthBar.RevealTheBar(); // Mikko
+            healthBar.UpdateBar(hitpoints / (float)maxHitpoints);// Mikko
         }
         if (hitpoints <= 0)
         {
+            healthBar.HideTheBar(); // Mikko
             HandleDestruction();
         }
     }
