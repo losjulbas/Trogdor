@@ -22,6 +22,8 @@ public class SheepFarm : MonoBehaviour, IDamageable
     SimpleAudioSource audioSource;
     GameManager gameManager;
 
+    private bool isDestroyed = false;
+
     public HealthBar healthBar; //Mikko
 
 
@@ -42,6 +44,10 @@ public class SheepFarm : MonoBehaviour, IDamageable
 
     void HandleDestruction()
     {
+
+        if (isDestroyed) return;
+
+        isDestroyed = true;
         StartCoroutine(DestructionSequence());
     }
 
@@ -88,7 +94,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
 
     public void TakeDamage(int amount)
     {
-        
+        if (isDestroyed) return;
         if (hitpoints > 0)
         {
             hitpoints -= amount;

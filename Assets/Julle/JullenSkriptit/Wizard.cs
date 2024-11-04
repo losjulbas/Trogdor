@@ -18,13 +18,20 @@ public class Wizard : MonoBehaviour, IDamageable
     public GameObject spellPrefab;
 
     [SerializeField] private int hitpoints = 2;
+    int maxHitpoints; // Mikko
 
     public Sprite undestroyedWizard;
     public Sprite destroyedWizard;
 
+    public HealthBar healthBar; //Mikko
+
+    void Start() {
+        healthBar.UpdateBar(hitpoints / (float)maxHitpoints); //mikko
+    }
 
     void Awake()
     {
+        maxHitpoints = hitpoints; //Mikko
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         polygonCollider = GetComponent<PolygonCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
@@ -117,9 +124,12 @@ public class Wizard : MonoBehaviour, IDamageable
         {
             hitpoints -= amount;
             scoreManager.AddScore(100);
+            healthBar.RevealTheBar(); // Mikko
+            healthBar.UpdateBar(hitpoints / (float)maxHitpoints);// Mikko
         }
         if (hitpoints <= 0)
         {
+            healthBar.HideTheBar(); // Mikko
             HandleDestruction();
         }
     }

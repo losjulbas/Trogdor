@@ -44,10 +44,12 @@ public class GameManager : MonoBehaviour
         {
 
             gameOverText.text = "You died!\nPress R to restart";
+            Debug.Log("You lost!");
         }
         else
         {
             gameOverText.text = "You win!\nPress R to restart";
+            Debug.Log("You won!");
         }
 
         // Calculate minutes and seconds
@@ -68,7 +70,8 @@ public class GameManager : MonoBehaviour
 
     public void GameLost()
     {
-        StartCoroutine(DelayedGameOver(true));
+        GameOver(true);
+        //StartCoroutine(DelayedGameOver(true));
     }
 
     private IEnumerator DelayedGameOver(bool outofLives)

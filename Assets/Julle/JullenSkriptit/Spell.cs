@@ -25,8 +25,9 @@ public class Spell : MonoBehaviour
 
     private void Update()
     {
-        if (homingTimer > 0)
+        if (homingTimer > 0 && scuffedDragon != null)
         {
+            
             Vector3 pos = scuffedDragon.transform.position;
 
             //calculate direction to shoot the arrow
@@ -46,8 +47,8 @@ public class Spell : MonoBehaviour
         Destroy(gameObject, 10f);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
+
+    private void OnTriggerEnter2D(Collider2D collision) {
 
         Destroy(gameObject);
     }

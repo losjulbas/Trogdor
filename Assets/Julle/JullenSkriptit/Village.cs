@@ -21,6 +21,7 @@ public class Village : MonoBehaviour, IDamageable
     ScoreManager scoreManager;
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
+    private bool isDestroyed = false;
 
     public HealthBar healthBar; // Mikko
 
@@ -95,6 +96,10 @@ public class Village : MonoBehaviour, IDamageable
 
     void HandleDestruction()
     {
+
+        if (isDestroyed) return;
+
+        isDestroyed = true;
         StartCoroutine(DestructionSequence());
     }
 
@@ -119,6 +124,7 @@ public class Village : MonoBehaviour, IDamageable
 
     public void TakeDamage(int amount)
     {
+        if (isDestroyed) return;
         if (hitpoints > 0)
         {
             hitpoints -= amount;

@@ -15,6 +15,8 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (dragonToFollow != null) { 
         transform.position = dragonToFollow.transform.position;
+        }
     }
 }
