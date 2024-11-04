@@ -72,6 +72,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
         if (isCastle == true)
         {
             gameManager.GameWon();
+            audioSource.PlaySound("Trumpets");
         }
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);
