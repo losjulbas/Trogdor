@@ -4,7 +4,7 @@ using UnityEngine.Audio;
 public class ScuffedDragon : MonoBehaviour
 {
 
-    [SerializeField] private int hitpoints = 5;
+    public int hitpoints = 5;
     [SerializeField] private int armorHitpoints;
     //public GameObject fireballPrefab;
     GameManager gameManager;
@@ -41,13 +41,10 @@ public class ScuffedDragon : MonoBehaviour
             HandleDestruction();
         }
 
-        // Instantiate hitmarkEffect at the contact point
-        //if (collision.contacts.Length > 0)  // Check if there are any contact points
-        //{
-        //    Vector2 contactPoint = collision.contacts[0].point;  // Get the first contact point
-        //    GameObject soulEffect = Instantiate(hitmarkEffect, contactPoint, Quaternion.identity);
-        //    Destroy(soulEffect, 2f);  // Destroy the effect after a delay if needed
-        //}
+        // Instantiate hitmarkEffect at the position of the dragon
+        Vector2 effectPosition = (Vector2)transform.position; // Use the dragon's position
+        GameObject soulEffect = Instantiate(hitmarkEffect, effectPosition, Quaternion.identity);
+        Destroy(soulEffect, 2f);  // Destroy the effect after a delay if needed
     }
 
     void Update()

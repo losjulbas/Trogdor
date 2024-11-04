@@ -33,6 +33,6 @@ public class ScoreManager : MonoBehaviour
 
         // Show the current score and high score
         scoreText.text = "Score:\n" + paddedScore;
-        highScoreText.text = "Highscore:\n" + paddedHighScore;
+        highScoreText.text = "Highscore: " + paddedHighScore;
     }
 }

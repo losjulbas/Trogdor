@@ -1,7 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Experimental.GraphView.GraphView;
-using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 using System.Collections;
 
 public class Village : MonoBehaviour, IDamageable
@@ -24,6 +22,7 @@ public class Village : MonoBehaviour, IDamageable
     private bool isDestroyed = false;
 
     public HealthBar healthBar; // Mikko
+    SimpleAudioSource audioSource;
 
     void Start() {
         healthBar.UpdateBar(hitpoints / (float)maxHitpoints); //mikko
@@ -36,6 +35,8 @@ public class Village : MonoBehaviour, IDamageable
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         boxCollider = GetComponent<BoxCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
+
     }
 
     void Update()
@@ -108,7 +109,7 @@ public class Village : MonoBehaviour, IDamageable
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
         yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
-
+        audioSource.PlaySound("DestroyedVillage");
         spriteRenderer.sprite = destroyedVillage;
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);

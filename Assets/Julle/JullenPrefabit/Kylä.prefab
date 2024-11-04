@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b52e26d6331994492477e97d88fa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoints: 3
+  hitpoints: 700
   undestroyedSheepfarm: {fileID: 21300000, guid: f2d19078d1d7efb4bb6f1ccf24abcb6d, type: 3}
   destroyedSheepfarm: {fileID: 21300000, guid: 38657da9344b25745b94cc79e6c6bb6b, type: 3}
   smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}

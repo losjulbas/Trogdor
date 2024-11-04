@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b52e26d6331994492477e97d88fa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoints: 3
+  hitpoints: 400
   undestroyedSheepfarm: {fileID: 21300000, guid: 00f6c202ed13f6744aa347797719231c, type: 3}
   destroyedSheepfarm: {fileID: 21300000, guid: 8e86717e42e458844a5dffd864a67d32, type: 3}
   smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
@@ -509,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 843639325893199242, guid: 4d3f56c2364bcb1489f219dbd643aeae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.4
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 843639325893199242, guid: 4d3f56c2364bcb1489f219dbd643aeae, type: 3}
       propertyPath: m_LocalPosition.z

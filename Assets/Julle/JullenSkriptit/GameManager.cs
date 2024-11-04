@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,10 +16,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float roundTimer;
     [SerializeField] private float gameOverDelay = 2f;
     SimpleAudioSource audioSource;
+    public GameObject gameOverScreen;
+    public AudioSource flapSource;
 
 
     private void Awake()
     {
+        gameOverScreen.SetActive(false);
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         audioSource = FindAnyObjectByType<SimpleAudioSource>();
         roundTimer = 0;
@@ -52,6 +54,9 @@ public class GameManager : MonoBehaviour
             Debug.Log("You won!");
         }
 
+        gameOverScreen.SetActive(true);
+
+        flapSource.enabled = false;
         // Calculate minutes and seconds
         int minutes = Mathf.FloorToInt(roundTimer / 60);  // Convert total seconds to minutes
         int seconds = Mathf.FloorToInt(roundTimer % 60);  // Get remaining seconds
@@ -94,5 +99,11 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("unknown powerup type, can't handle");
         }
+    }
+
+    public void RestartButton() {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 }

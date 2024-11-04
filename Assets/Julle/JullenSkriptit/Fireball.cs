@@ -1,6 +1,5 @@
 using UnityEngine;
-using UnityEngine.UIElements;
-using System.Collections;
+
 
 public class Fireball : MonoBehaviour
 {
@@ -32,6 +31,6 @@ public class Fireball : MonoBehaviour
         {
             damgeable.TakeDamage(1);
         }
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }

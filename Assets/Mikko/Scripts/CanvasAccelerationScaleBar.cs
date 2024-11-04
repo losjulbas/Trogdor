@@ -14,12 +14,6 @@ public class CanvasAccelerationScaleBar : MonoBehaviour
         barSize = dragonMovementScript.workingAccelerationStamina / dragonMovementScript.maxAccelerationStamina;
 
         image = squareLiikkuva.GetComponent<Image>();
-        
-        
-            
-        
-        
-
 
     }
 
