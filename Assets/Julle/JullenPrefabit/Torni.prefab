@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.07, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d5002fcd96aa0c2418faf0481cc95d78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 3495837827112988055, guid: bd3977575f6e073469258c065368db7c, type: 3}
   sightDistance: 3.38
   hitpoints: 2
-  undestroyedVillage: {fileID: 21300000, guid: f2d19078d1d7efb4bb6f1ccf24abcb6d, type: 3}
-  destroyedVillage: {fileID: 21300000, guid: 38657da9344b25745b94cc79e6c6bb6b, type: 3}
+  undestroyedVillage: {fileID: 21300000, guid: d5002fcd96aa0c2418faf0481cc95d78, type: 3}
+  destroyedVillage: {fileID: 21300000, guid: 0236e24769b65914fb50b24a4f0466e3, type: 3}
   smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
   soulEffectPrefab: {fileID: 5642766282230003982, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c, type: 3}

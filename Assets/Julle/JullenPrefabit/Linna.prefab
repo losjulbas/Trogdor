@@ -147,6 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b52e26d6331994492477e97d88fa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoints: 2
+  hitpoints: 100
   undestroyedSheepfarm: {fileID: -6441858634206990165, guid: 2e7412ae8d24f24438d7792cde9e02c9, type: 3}
   destroyedSheepfarm: {fileID: 21300000, guid: 31545ff44e2105b4da50c5cf5ca4d0d0, type: 3}
