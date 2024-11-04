@@ -198,5 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  homingTimer: 0
+  homingDuration: 1
   turningSpeed: 300
-  turningSpeedTimer: 100
+  turningSpeedDecay: 20

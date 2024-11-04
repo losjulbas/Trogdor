@@ -16,16 +16,17 @@ public class Village : MonoBehaviour, IDamageable
     public Sprite undestroyedVillage;
     public Sprite destroyedVillage;
     SpriteRenderer spriteRenderer;
-    BoxCollider2D boxCollider;
+    PolygonCollider2D polygonCollider;
     ScoreManager scoreManager;
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
+
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        polygonCollider = GetComponent<PolygonCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
     }
 
@@ -94,16 +95,17 @@ public class Village : MonoBehaviour, IDamageable
     {
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
-        yield return new WaitForSeconds(1f);  // Wait for smoke effect to finish
+        yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
 
         spriteRenderer.sprite = destroyedVillage;
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);
         soulEffect.transform.position = transform.position;
-        Destroy(soulEffect, 2f); 
-        yield return new WaitForSeconds(10f);  
+        Destroy(soulEffect, 4f);
+        yield return new WaitForSeconds(0.1f);
 
-        //// Disable this script
+        // Disable this script and collider
+        polygonCollider.enabled = false;
         this.enabled = false;
     }
 
