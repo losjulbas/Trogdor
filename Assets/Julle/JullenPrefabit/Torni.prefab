@@ -101,10 +101,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2d97f233ba49748a741123eba6706c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tickTime: 2
+  tickTime: 1.1
   arrowPrefab: {fileID: 3495837827112988055, guid: bd3977575f6e073469258c065368db7c, type: 3}
-  sightDistance: 3.38
-  hitpoints: 2
+  sightDistance: 5.96
+  hitpoints: 300
   undestroyedVillage: {fileID: 21300000, guid: d5002fcd96aa0c2418faf0481cc95d78, type: 3}
   destroyedVillage: {fileID: 21300000, guid: 0236e24769b65914fb50b24a4f0466e3, type: 3}
   smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
