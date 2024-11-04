@@ -80,10 +80,15 @@ public class SheepFarm : MonoBehaviour, IDamageable
         yield return new WaitForSeconds(0.1f);
 
         // Check if this instance can spawn a power-up and spawn it if the chance succeeds
-        if (canSpawnPowerup && Random.value < powerupChance)
-        {
-            var powerup = Instantiate(powerupToSpawn);
-            powerup.transform.position = transform.position;
+        if (canSpawnPowerup) {
+            Debug.Log("Checking for power-up spawn...");
+            if (Random.value < powerupChance) {
+                Debug.Log("Power-up spawning!");
+                var powerup = Instantiate(powerupToSpawn, transform.position, Quaternion.identity);
+            }
+            else {
+                Debug.Log("Power-up not spawned due to random chance.");
+            }
         }
 
         // Disable this script and collider
