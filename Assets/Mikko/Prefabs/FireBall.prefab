@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1333977511484839980}
   - component: {fileID: -1456978493877077101}
   - component: {fileID: 2432583273741446437}
-  m_Layer: 0
+  - component: {fileID: 7628461887261775240}
+  m_Layer: 12
   m_Name: FireBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +45,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5017686846075693704}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -98,7 +99,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 0.15
 --- !u!114 &-1456978493877077101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,6 +346,18 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &7628461887261775240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017686846075693704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b9079f0db49d544b7e8f9c9fec32d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8660971880725474203
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5571072524304586608}
   - component: {fileID: 6519857003861967489}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tulipallo_placeholder_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +433,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 2230344122243341868, guid: f17b2b13639464a1a905992e8b3402a5, type: 3}
   m_Color: {r: 1, g: 0.5019608, b: 0.2627451, a: 1}
   m_FlipX: 0

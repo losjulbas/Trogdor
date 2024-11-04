@@ -72,7 +72,7 @@ public class Village : MonoBehaviour, IDamageable
         }
 
         // Get the dragon's collider
-        Collider2D dragonCollider = scuffedDragon.GetComponent<Collider2D>();
+        PolygonCollider2D dragonCollider = scuffedDragon.GetComponent<PolygonCollider2D>();
 
         // Check if any part of the dragon's collider overlaps with the sight radius
         if (Physics2D.OverlapCircle(transform.position, sightDistance, LayerMask.GetMask("Dragon")) == dragonCollider)
@@ -102,14 +102,14 @@ public class Village : MonoBehaviour, IDamageable
     {
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
-        yield return new WaitForSeconds(1f);  // Wait for smoke effect to finish
+        yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
 
         spriteRenderer.sprite = destroyedVillage;
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);
         soulEffect.transform.position = transform.position;
-        Destroy(soulEffect, 2f); 
-        yield return new WaitForSeconds(10f);  
+        Destroy(soulEffect, 4f); 
+        yield return new WaitForSeconds(0.1f);  
 
         //// Disable this script
         this.enabled = false;

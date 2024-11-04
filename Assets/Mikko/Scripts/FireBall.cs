@@ -44,7 +44,7 @@ public class FireBall : MonoBehaviour
 
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         
-        randomGreen = Random.Range(0.4f,0.6f);
+        randomGreen = Random.Range(0.5f,0.8f);
 
         
 
