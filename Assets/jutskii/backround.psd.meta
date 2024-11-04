@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 108e8c22944acd8499ac78659986c93a
+guid: 458126df4fc5c6b4fabfc1534f6c9bf1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7312007236897778229
-    second: End credits backround_0
+      213: -3282631195843420933
+    second: backround_0
+  - first:
+      213: 2560784080315563198
+    second: backround_1
+  - first:
+      213: 2463565110496485064
+    second: backround_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +102,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: End credits backround_0
+      name: backround_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 626
-        height: 626
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc55f91a828868a90800000000000000
-      internalID: -7312007236897778229
+      spriteID: bfc132bc150c172d0800000000000000
+      internalID: -3282631195843420933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backround_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc3fadad8bb98320800000000000000
+      internalID: 2560784080315563198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backround_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 583
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce503c5a67503220800000000000000
+      internalID: 2463565110496485064
       vertices: []
       indices: 
       edges: []
@@ -147,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      End credits backround_0: -7312007236897778229
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
