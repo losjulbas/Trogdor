@@ -96,6 +96,11 @@ public class GameManager : MonoBehaviour
             scuffedDragon.PowerupActivated(PowerupType.Armor);
 
         }
+        else if (whichType == PowerupType.Health)
+        {
+
+            scuffedDragon.PowerupActivated(PowerupType.Health);
+        }
         else
         {
             Debug.LogError("unknown powerup type, can't handle");

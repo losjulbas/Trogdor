@@ -1,5 +1,5 @@
 using UnityEngine;
-public enum PowerupType { None, Armor };
+public enum PowerupType { None, Armor, Health };
 
 public class Powerup : MonoBehaviour
 {

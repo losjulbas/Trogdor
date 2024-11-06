@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.Audio;
+using UnityEngine.Rendering;
 
 public class SheepFarm : MonoBehaviour, IDamageable
 {
@@ -14,7 +15,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
     PolygonCollider2D polygonCollider;
     public GameObject smokeEffectPrefab;
     public GameObject soulEffectPrefab;
-    public bool canSpawnPowerup = false;
+    public bool isVillage = false;
     public bool isSheepfarm = false;
     public bool isCastle = false;
     public float powerupChance = 0.9f;
@@ -54,19 +55,39 @@ public class SheepFarm : MonoBehaviour, IDamageable
     private IEnumerator DestructionSequence()
     {
 
-        if (canSpawnPowerup)
-        {
-            audioSource.PlaySound("DestroyedVillage");
-        }
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
         yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
 
         spriteRenderer.sprite = destroyedSheepfarm;
 
+        // Check if this instance can spawn a power-up and spawn it if the chance succeeds
+        if (isVillage)
+        {
+            audioSource.PlaySound("DestroyedVillage");
+            Debug.Log("Checking for power-up spawn...");
+            if (Random.value < powerupChance)
+            {
+                Debug.Log("Power-up spawning!");
+                var Armorpowerup = Instantiate(powerupToSpawn, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Debug.Log("Power-up not spawned due to random chance.");
+            }
+        }
+
         if (isSheepfarm == true)
         {
             audioSource.PlaySound("Sheep");
+
+            if (powerupToSpawn != null)
+            {
+                Debug.Log("instantiating health powerup!");
+                var healthPowerup = Instantiate(powerupToSpawn, transform.position, Quaternion.identity);
+                healthPowerup.transform.position = transform.position;
+            }
+
         }
 
         if (isCastle == true)
@@ -80,17 +101,6 @@ public class SheepFarm : MonoBehaviour, IDamageable
         Destroy(soulEffect, 4f);
         yield return new WaitForSeconds(0.1f);
 
-        // Check if this instance can spawn a power-up and spawn it if the chance succeeds
-        if (canSpawnPowerup) {
-            Debug.Log("Checking for power-up spawn...");
-            if (Random.value < powerupChance) {
-                Debug.Log("Power-up spawning!");
-                var powerup = Instantiate(powerupToSpawn, transform.position, Quaternion.identity);
-            }
-            else {
-                Debug.Log("Power-up not spawned due to random chance.");
-            }
-        }
 
         // Disable this script and collider
         polygonCollider.enabled = false;
