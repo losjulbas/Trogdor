@@ -10,8 +10,12 @@ public class SimpleAudioSource : MonoBehaviour
     public AudioClip DestroyedVillage;
     public AudioClip DeadDragon;
 
+    public bool isSoundPlaying = false;
+
+
     public void PlaySound(string ID)
     {
+
         if (ID == "Trumpets")
         {
             sfx.PlayOneShot(Trumpets);
@@ -22,7 +26,7 @@ public class SimpleAudioSource : MonoBehaviour
         }
         else if (ID == "DragonSpitFire")
         {
-            sfx.PlayOneShot(DragonSpitFire);
+            isSpittingFire();
         }
         else if (ID == "DestroyedVillage")
         {
@@ -32,11 +36,32 @@ public class SimpleAudioSource : MonoBehaviour
         {
             sfx.PlayOneShot(DeadDragon);
         }
+
         else
         {
             Debug.LogError("Unknown audio ID" + ID);
         }
 
+
+    }
+
+    public void isSpittingFire()
+    {
+        if (isSoundPlaying)
+        {
+            return;  // Exit if a sound is already playing
+        }
+        else
+        {
+            StartCoroutine(ResetSoundPlaying(sfx.clip.length));
+        }
+    }
+    private IEnumerator ResetSoundPlaying(float clipLength)
+    {
+
+        sfx.PlayOneShot(DragonSpitFire);
+        yield return new WaitForSeconds(clipLength);
+        isSoundPlaying = false;
     }
 }
 

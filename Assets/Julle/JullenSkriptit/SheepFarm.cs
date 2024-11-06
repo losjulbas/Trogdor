@@ -65,6 +65,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
         if (isVillage)
         {
             audioSource.PlaySound("DestroyedVillage");
+            Debug.Log("PLayed destroyed village sound");
             Debug.Log("Checking for power-up spawn...");
             if (Random.value < powerupChance)
             {
