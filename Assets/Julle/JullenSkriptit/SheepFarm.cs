@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.Audio;
 using UnityEngine.Rendering;
+using TMPro;
 
 public class SheepFarm : MonoBehaviour, IDamageable
 {

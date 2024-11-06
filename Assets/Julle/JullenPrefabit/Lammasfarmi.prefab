@@ -107,7 +107,7 @@ MonoBehaviour:
   destroyedSheepfarm: {fileID: 21300000, guid: 8e86717e42e458844a5dffd864a67d32, type: 3}
   smokeEffectPrefab: {fileID: 725748389856807714, guid: 4bda94453d2ca7444a0fff05b2d425f5, type: 3}
   soulEffectPrefab: {fileID: 5642766282230003982, guid: b5c8ca7ed10b61e499cce8ec3b6e2e4c, type: 3}
-  canSpawnPowerup: 0
+  isVillage: 0
   isSheepfarm: 1
   isCastle: 0
   powerupChance: 0.9

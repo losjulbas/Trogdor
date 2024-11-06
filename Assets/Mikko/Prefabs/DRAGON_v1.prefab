@@ -265,6 +265,7 @@ MonoBehaviour:
   tailWaveSpeed: 4
   tailSegmentDifference: 5
   tailSegmentReduction: 3
+  isCollidingWithWall: 0
 --- !u!114 &2057145000029440103
 MonoBehaviour:
   m_ObjectHideFlags: 0
