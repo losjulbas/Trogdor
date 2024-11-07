@@ -6,6 +6,7 @@ public class Fireball : MonoBehaviour
     Rigidbody2D rb;
     //public float speed;
     //private Vector2 direction;  // suunta johon dragon katsoo
+    public GameObject fireballEffect;
 
 
     private void Awake()
@@ -29,6 +30,9 @@ public class Fireball : MonoBehaviour
         var damgeable = other.GetComponent<IDamageable>();
         if (damgeable != null)
         {
+            GameObject fireEffect = Instantiate(fireballEffect);
+            fireEffect.transform.position = transform.position;
+            Destroy(fireEffect, 2f);
             damgeable.TakeDamage(1);
         }
         //Destroy(gameObject);

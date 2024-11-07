@@ -446,6 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b9079f0db49d544b7e8f9c9fec32d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireballEffect: {fileID: 5856881126466288837, guid: efff033da6f09c940bea4e58b4fe7f72, type: 3}
 --- !u!1 &8660971880725474203
 GameObject:
   m_ObjectHideFlags: 0
