@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,12 +14,16 @@ public class GameManager : MonoBehaviour
     ScuffedDragon scuffedDragon;
     public List<PowerupType> powerups;
     [SerializeField] private float roundTimer;
-    [SerializeField] private float gameOverDelay = 2f;
+    [SerializeField] private float gameOverDelay = 1f;
     SimpleAudioSource audioSource;
+    public GameObject gameOverScreen;
+    public GameObject creditsScreen;
+    public AudioSource flapSource;
 
 
     private void Awake()
     {
+        gameOverScreen.SetActive(false);
         scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
         audioSource = FindAnyObjectByType<SimpleAudioSource>();
         roundTimer = 0;
@@ -48,10 +51,13 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            gameOverText.text = "You win!\nPress R to restart";
+            gameOverText.text = "You won!\nPress R to restart";
             Debug.Log("You won!");
         }
 
+        gameOverScreen.SetActive(true);
+
+        flapSource.enabled = false;
         // Calculate minutes and seconds
         int minutes = Mathf.FloorToInt(roundTimer / 60);  // Convert total seconds to minutes
         int seconds = Mathf.FloorToInt(roundTimer % 60);  // Get remaining seconds
@@ -77,7 +83,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator DelayedGameOver(bool outofLives)
     {
         yield return new WaitForSeconds(gameOverDelay);
-        audioSource.PlaySound("Trumpets");
+        //audioSource.PlaySound("Trumpets");
         GameOver(outofLives);
     }
 
@@ -90,9 +96,46 @@ public class GameManager : MonoBehaviour
             scuffedDragon.PowerupActivated(PowerupType.Armor);
 
         }
+        else if (whichType == PowerupType.Health)
+        {
+
+            scuffedDragon.PowerupActivated(PowerupType.Health);
+        }
         else
         {
             Debug.LogError("unknown powerup type, can't handle");
         }
+    }
+
+    public void RestartButton() {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+    }
+
+    public void CreditsButton()
+    {
+        creditsScreen.SetActive(true);
+        gameOverScreen.SetActive(false);
+    }
+
+    public void BackToMainMenuFromCredits()
+    {
+        creditsScreen.SetActive(false);
+        gameOverScreen.SetActive(true); ;
+    }
+    public void QuitButton()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;  // Exits play mode in the editor
+#else
+        Application.Quit();  // Exits the application when running as a build
+#endif
+    }
+    public void ClearDataButton()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        Debug.Log("All saved data has been cleared.");
     }
 }

@@ -40,6 +40,8 @@ public class DragonMovement : MonoBehaviour
     public float tailSegmentDifference = 1f;
     public float tailSegmentReduction = 0.5f;
 
+    public bool isCollidingWithWall = false; //Jullen muutos mapin reunoja varten
+
 
     void Awake(){
         workingSpeed = speed;
@@ -85,31 +87,46 @@ public class DragonMovement : MonoBehaviour
     
 
     void Moving() {
-        Vector3 velocity = transform.up * workingSpeed;
-        transform.position += velocity * Time.deltaTime;
 
-        if (Input.GetKey(leftTurn)) {
+        if (isCollidingWithWall == false) //jullen lisäys
+        {
+            Vector3 velocity = transform.up * workingSpeed;
+            transform.position += velocity * Time.deltaTime;
+        }
+
+        HandleRotation(); //jullen funktio, siirretty kaikki extra mikä täällä oli uuden funktion alle, jotta seinät toimii
+
+    }
+    void HandleRotation()
+    {
+        if (Input.GetKey(leftTurn))
+        {
             timeTurningLeft += Time.deltaTime;
             timeTurningLeft = Mathf.Clamp(timeTurningLeft, 0, 1);
-            float curveRotateLeft = smoothTurningCurve.Evaluate(timeTurningLeft)*rotateSpeed;
+            float curveRotateLeft = smoothTurningCurve.Evaluate(timeTurningLeft) * rotateSpeed;
             transform.Rotate(Vector3.forward, curveRotateLeft * Time.deltaTime);
-            
-            neckTurningLeft=true;
 
-        } else if (timeTurningLeft>0){
-            timeTurningLeft -= Time.deltaTime*2f; //maaginen luku puolittaa liikkumisesta palautumisajan
-            float curveRotateLeft = smoothStoppingCurve.Evaluate(timeTurningLeft)*rotateSpeed;
+            neckTurningLeft = true;
+
+        }
+        else if (timeTurningLeft > 0)
+        {
+            timeTurningLeft -= Time.deltaTime * 2f; //maaginen luku puolittaa liikkumisesta palautumisajan
+            float curveRotateLeft = smoothStoppingCurve.Evaluate(timeTurningLeft) * rotateSpeed;
             transform.Rotate(Vector3.forward, curveRotateLeft * Time.deltaTime);
             neckTurningLeft = false;
 
-        } else{
-            timeTurningLeft=0;
+        }
+        else
+        {
+            timeTurningLeft = 0;
             neckTurningLeft = false;
         }
 
 
 
-        if (Input.GetKey(rightTurn)) {
+        if (Input.GetKey(rightTurn))
+        {
             timeTurningRight += Time.deltaTime;
             timeTurningRight = Mathf.Clamp(timeTurningRight, 0, 1);
             float curveRotateRight = smoothTurningCurve.Evaluate(timeTurningRight) * rotateSpeed;
@@ -118,14 +135,16 @@ public class DragonMovement : MonoBehaviour
             neckTurningRight = true;
 
         }
-        else if (timeTurningRight > 0) {
+        else if (timeTurningRight > 0)
+        {
             timeTurningRight -= Time.deltaTime * 2f; // Return to neutral position
             float curveRotateRight = smoothStoppingCurve.Evaluate(timeTurningRight) * rotateSpeed;
             transform.Rotate(Vector3.forward, -curveRotateRight * Time.deltaTime);
             neckTurningRight = false;
 
         }
-        else {
+        else
+        {
             timeTurningRight = 0;
             neckTurningRight = false;
         }
@@ -211,5 +230,10 @@ public class DragonMovement : MonoBehaviour
             }*/
         }
 
+    }
+
+    public void SetCollisionState(bool state) //jullen muutos
+    {
+        isCollidingWithWall = state;
     }
 }

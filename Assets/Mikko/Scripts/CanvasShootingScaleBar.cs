@@ -17,7 +17,9 @@ public class CanvasShootingScaleBar : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        barSize = (dragonShooterScript.maxShootingDuration - dragonShooterScript.workingShootingDuration) / dragonShooterScript.maxShootingDuration;
+        //barSize = (dragonShooterScript.maxShootingDuration - dragonShooterScript.workingShootingDuration) / dragonShooterScript.maxShootingDuration;
+        barSize = dragonShooterScript.workingShootingDuration / dragonShooterScript.maxShootingDuration;
+
         var barScale = transform.localScale;
         barScale.x = barSize;
         transform.localScale = barScale;

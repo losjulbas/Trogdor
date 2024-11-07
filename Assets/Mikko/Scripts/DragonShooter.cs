@@ -22,9 +22,18 @@ public class DragonShooter : MonoBehaviour
     float workingShootingFrequenzy;
     
     DragonMovement dragonMovement;
-  
 
-void Start(){
+    SimpleAudioSource audioSource; // jullen lisäys
+    bool isAudioPlaying = false; // jullen lisäys
+
+
+    private void Awake()
+    {
+        audioSource = FindAnyObjectByType<SimpleAudioSource>(); // jullen lisäys
+
+    }
+
+    void Start(){
     workingShootingFrequenzy = shootingFrequenzy;
     workingShootingDuration = maxShootingDuration;
     
@@ -35,10 +44,19 @@ void Start(){
    
     void Update()
     {
+
+
         fireBallCurrentSpeed = fireBallSetSpeed+dragonMovement.workingSpeed*1.3f;
 
         if (Input.GetKey(shootingKey)){
-            
+
+            // Play sound only if it's not already playing
+            if (!audioSource.isSoundPlaying && !isAudioPlaying) // jullen lisäys
+            {
+                audioSource.PlaySound("DragonSpitFire");
+                isAudioPlaying = true;
+            }
+
             workingShootingFrequenzy -= Time.deltaTime;
             if (workingShootingFrequenzy<0 && workingShootingDuration>0){
                 workingShootingDuration -= Time.deltaTime;
@@ -46,14 +64,12 @@ void Start(){
                 GameObject fireBall = Instantiate<GameObject>(fireBallPrefab);
                 fireBall.transform.position = shootingObject.transform.position;
                 fireBall.transform.rotation = shootingObject.transform.rotation;
-
-
             }
-            
-        } 
-        
+        }
+
         if (!Input.GetKey(shootingKey) && workingShootingDuration <maxShootingDuration){
             workingShootingDuration += Time.deltaTime;
+            isAudioPlaying = false; // jullen lisäys
         }
         
     }

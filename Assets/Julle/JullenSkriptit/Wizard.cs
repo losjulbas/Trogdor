@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class Wizard : MonoBehaviour, IDamageable
 {
@@ -24,6 +25,7 @@ public class Wizard : MonoBehaviour, IDamageable
     public Sprite destroyedWizard;
 
     public HealthBar healthBar; //Mikko
+    SimpleAudioSource audioSource;
 
     void Start() {
         healthBar.UpdateBar(hitpoints / (float)maxHitpoints); //mikko
@@ -36,6 +38,8 @@ public class Wizard : MonoBehaviour, IDamageable
         polygonCollider = GetComponent<PolygonCollider2D>();
         scoreManager = FindAnyObjectByType<ScoreManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = FindAnyObjectByType<SimpleAudioSource>();
+
     }
 
     void Update()
@@ -103,7 +107,7 @@ public class Wizard : MonoBehaviour, IDamageable
         GameObject smokeEffect = Instantiate(smokeEffectPrefab, transform.position, Quaternion.identity);
         Destroy(smokeEffect, 2f);  // Destroy the effect after 2 seconds
         yield return new WaitForSeconds(0.3f);  // Wait for smoke effect to finish
-
+        audioSource.PlaySound("DestroyedVillage");
         spriteRenderer.sprite = destroyedWizard;
 
         GameObject soulEffect = Instantiate(soulEffectPrefab);

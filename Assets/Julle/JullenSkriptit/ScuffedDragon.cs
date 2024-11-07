@@ -4,7 +4,7 @@ using UnityEngine.Audio;
 public class ScuffedDragon : MonoBehaviour
 {
 
-    [SerializeField] private int hitpoints = 5;
+    public int hitpoints = 5;
     [SerializeField] private int armorHitpoints;
     //public GameObject fireballPrefab;
     GameManager gameManager;
@@ -15,7 +15,9 @@ public class ScuffedDragon : MonoBehaviour
     public GameObject armorPowerupSprite; // Reference to the armor sprite
     SimpleAudioSource audioSource;
     public GameObject hitmarkEffect;
-    //BoxCollider2D boxCollider;
+
+    private bool isCollidingWithWall = false;
+
 
     private void Awake()
     {
@@ -25,8 +27,18 @@ public class ScuffedDragon : MonoBehaviour
         //boxCollider = GetComponent<BoxCollider2D>();
     }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
     private void OnTriggerEnter2D(Collider2D collision) {
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Powerup"))
+        {
+            return;
+        }
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            return;
+        }
+
         if (currentPowerup == PowerupType.Armor && armorHitpoints > 0)
         {
             armorHitpoints--;
@@ -41,14 +53,19 @@ public class ScuffedDragon : MonoBehaviour
             HandleDestruction();
         }
 
-        // Instantiate hitmarkEffect at the contact point
-        //if (collision.contacts.Length > 0)  // Check if there are any contact points
-        //{
-        //    Vector2 contactPoint = collision.contacts[0].point;  // Get the first contact point
-        //    GameObject soulEffect = Instantiate(hitmarkEffect, contactPoint, Quaternion.identity);
-        //    Destroy(soulEffect, 2f);  // Destroy the effect after a delay if needed
-        //}
+        // Instantiate hitmarkEffect at the position of the dragon
+        Vector2 effectPosition = (Vector2)transform.position; // Use the dragon's position
+        GameObject soulEffect = Instantiate(hitmarkEffect, effectPosition, Quaternion.identity);
+        Destroy(soulEffect, 2f);  // Destroy the effect after a delay if needed
     }
+
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+    //    {
+    //        FindObjectOfType<DragonMovement>().SetCollisionState(false);
+    //    }
+    //}
 
     void Update()
     {
@@ -85,12 +102,20 @@ public class ScuffedDragon : MonoBehaviour
             armorHitpoints += 10;
             armorPowerupSprite.SetActive(true);
         }
+        if (powerup == PowerupType.Health)
+        {
+            print("Hitpoints increased!");
+            hitpoints += 10;
+        }
     }
     void EndPowerup(PowerupType powerup)
     {
-        print("Armor deactivated!");
-        armorHitpoints = 0;
-        armorPowerupSprite.SetActive(false);
+        if (powerup == PowerupType.Armor)
+        {
+            print("Armor deactivated!");
+            armorHitpoints = 0;
+            armorPowerupSprite.SetActive(false);
+        }
     }
 
     void HandleDestruction()
