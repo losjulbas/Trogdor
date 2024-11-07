@@ -10,7 +10,7 @@ public class ScuffedDragon : MonoBehaviour
     GameManager gameManager;
     //public float speed;
     public float powerupDuration = 2f;
-    float timer = 0f;
+    public float timer = 0f;
     PowerupType currentPowerup = PowerupType.None;
     public GameObject armorPowerupSprite; // Reference to the armor sprite
     SimpleAudioSource audioSource;
@@ -69,7 +69,7 @@ public class ScuffedDragon : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Space)) // TÄTÄ EI TARVITA
+        //if (Input.GetKeyDown(KeyCode.Space)) // Tï¿½Tï¿½ EI TARVITA
         //{
         //    print("Fireball spawned!");
         //    var newFireball = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
