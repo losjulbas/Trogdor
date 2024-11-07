@@ -83,6 +83,12 @@ public class ScuffedDragon : MonoBehaviour
             EndPowerup(currentPowerup);
             currentPowerup = PowerupType.None;
         }
+
+        if (currentPowerup == PowerupType.Armor && armorHitpoints <= 0)
+        {
+            EndPowerup(currentPowerup);
+            currentPowerup = PowerupType.None;
+        }
     }
 
 
@@ -120,7 +126,6 @@ public class ScuffedDragon : MonoBehaviour
 
     void HandleDestruction()
     {
-        audioSource.PlaySound("DeadDragon");
         gameManager.GameLost();
         Destroy(gameObject);
     }

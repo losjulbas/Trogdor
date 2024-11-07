@@ -54,7 +54,7 @@ public class Wizard : MonoBehaviour, IDamageable
 
         while (timer > tickTime)
         { // might need more than one tick!
-            print("Spell casted!");
+            audioSource.PlaySound("WizardCasting");
             var newSpell = Instantiate(spellPrefab, transform.position, Quaternion.identity);
 
             timer -= tickTime; // “spend” one tickTime, don’t go to zero

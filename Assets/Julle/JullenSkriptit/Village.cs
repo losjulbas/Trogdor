@@ -50,10 +50,9 @@ public class Village : MonoBehaviour, IDamageable
         timer += Time.deltaTime;
 
         while (timer > tickTime)
-        { // might need more than one tick!
-            print("Arrow spawned!");
+        {
+            audioSource.PlaySound("ArrowTower");
             var newArrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
-
             timer -= tickTime; // “spend” one tickTime, don’t go to zero
         }
     }

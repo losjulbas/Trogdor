@@ -15,12 +15,12 @@ public class GameManager : MonoBehaviour
     ScuffedDragon scuffedDragon;
     public List<PowerupType> powerups;
     [SerializeField] private float roundTimer;
-    [SerializeField] private float gameOverDelay = 1f;
+    [SerializeField] private float gameOverDelay = 0.1f;
     SimpleAudioSource audioSource;
     public GameObject gameOverScreen;
     public GameObject creditsScreen;
     public AudioSource flapSource;
-
+    public AudioSource musicSource;  // Background music
 
     private void Awake()
     {
@@ -70,21 +70,23 @@ public class GameManager : MonoBehaviour
 
     void GameOver(bool outofLives)
     {
+
         if (outofLives)
         {
-
+            audioSource.PlaySound("DeadDragon");
             gameOverText.text = "You died!\nPress R to restart";
             Debug.Log("You lost!");
         }
         else
         {
+            audioSource.PlaySound("Trumpets");
             gameOverText.text = "You won!\nPress R to restart";
             Debug.Log("You won!");
         }
-
+        musicSource.mute = true;
+        flapSource.mute = true;
         gameOverScreen.SetActive(true);
 
-        flapSource.enabled = false;
         // Calculate minutes and seconds
         int minutes = Mathf.FloorToInt(roundTimer / 60);  // Convert total seconds to minutes
         int seconds = Mathf.FloorToInt(roundTimer % 60);  // Get remaining seconds
@@ -103,8 +105,7 @@ public class GameManager : MonoBehaviour
 
     public void GameLost()
     {
-        GameOver(true);
-        //StartCoroutine(DelayedGameOver(true));
+        StartCoroutine(DelayedGameOver(true));
     }
 
     private IEnumerator DelayedGameOver(bool outofLives)

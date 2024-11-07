@@ -23,9 +23,11 @@ public class SheepFarm : MonoBehaviour, IDamageable
     public GameObject powerupToSpawn;
     SimpleAudioSource audioSource;
     GameManager gameManager;
+    ScuffedDragon scuffedDragon;
+    [SerializeField] float sightDistance;
 
     private bool isDestroyed = false;
-
+    private bool dragonSeen = false;
     public HealthBar healthBar; //Mikko
 
 
@@ -42,6 +44,7 @@ public class SheepFarm : MonoBehaviour, IDamageable
         polygonCollider = GetComponent<PolygonCollider2D>();
         audioSource = FindAnyObjectByType<SimpleAudioSource>();
         gameManager = FindAnyObjectByType<GameManager>();
+        scuffedDragon = FindAnyObjectByType<ScuffedDragon>();
     }
 
     void HandleDestruction()
@@ -124,6 +127,44 @@ public class SheepFarm : MonoBehaviour, IDamageable
         {
             healthBar.HideTheBar(); // Mikko
             HandleDestruction();
+        }
+    }
+
+    private void Update()
+    {
+        IsPlayerVisible();
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (isCastle == true)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, sightDistance);
+        }
+
+    }
+
+    void IsPlayerVisible()
+    {
+
+        if (isCastle == true)
+        {
+            if (scuffedDragon == null)
+            {
+                return;
+            }
+
+            // Get the dragon's collider
+            PolygonCollider2D dragonCollider = scuffedDragon.GetComponent<PolygonCollider2D>();
+
+            // Check if any part of the dragon's collider overlaps with the sight radius
+            if (Physics2D.OverlapCircle(transform.position, sightDistance, LayerMask.GetMask("Dragon")) == dragonCollider && dragonSeen == false)
+            {
+                audioSource.PlaySound("CastleBell");
+                Debug.Log("Dragon on sight!");
+                dragonSeen = true;
+            }
         }
     }
 }

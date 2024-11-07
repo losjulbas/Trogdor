@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio;
+using UnityEngine.Rendering;
 
 public class SimpleAudioSource : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class SimpleAudioSource : MonoBehaviour
     public AudioClip DragonSpitFire;
     public AudioClip DestroyedVillage;
     public AudioClip DeadDragon;
+    public AudioClip CastleBell;
+    public AudioClip ArrowTower;
+    public AudioClip WizardCasting;
+    public AudioClip ButtonClick;
 
     public bool isSoundPlaying = false;
 
@@ -36,13 +42,27 @@ public class SimpleAudioSource : MonoBehaviour
         {
             sfx.PlayOneShot(DeadDragon);
         }
-
+        else if (ID == "CastleBell")
+        {
+            sfx.PlayOneShot(CastleBell);
+        }
+        else if (ID == "ArrowTower")
+        {
+            sfx.PlayOneShot(ArrowTower);
+        }
+        else if (ID == "WizardCasting")
+        {
+            sfx.PlayOneShot(WizardCasting);
+        }
+        else if (ID == "ButtonClick")
+        {
+            Debug.Log("Playing ButtonClick sound");
+            sfx.PlayOneShot(ButtonClick);
+        }
         else
         {
             Debug.LogError("Unknown audio ID" + ID);
         }
-
-
     }
 
     public void isSpittingFire()
