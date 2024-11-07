@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kuollut noita hattu_0: -908529082683178379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
