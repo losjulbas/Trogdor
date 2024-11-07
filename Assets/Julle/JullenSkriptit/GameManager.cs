@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using static UnityEngine.InputManagerEntry;
 
 public class GameManager : MonoBehaviour
 {
 
     [SerializeField] TMP_Text gameOverText;
     [SerializeField] TMP_Text roundTimerText;
+    [SerializeField] TMP_Text introductionText;
+
     ScuffedDragon scuffedDragon;
     public List<PowerupType> powerups;
     [SerializeField] private float roundTimer;
@@ -29,6 +30,32 @@ public class GameManager : MonoBehaviour
         roundTimer = 0;
     }
 
+    private void Start()
+    {
+
+        StartCoroutine(IntroductionText());
+    }
+
+    private IEnumerator IntroductionText()
+    {
+        introductionText.text = "Find the castle...";
+
+        float elapsedTime = 0f;
+        float duration = 5f;
+        Color originalColor = introductionText.color;
+
+        while (elapsedTime < duration)
+        {
+
+            float alpha = Mathf.Lerp(1, 0, elapsedTime / duration);
+            introductionText.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        
+        introductionText.text = "";
+
+    }
 
     void Update()
     {

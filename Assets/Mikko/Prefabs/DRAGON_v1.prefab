@@ -355,6 +355,7 @@ MonoBehaviour:
   hitpoints: 5
   armorHitpoints: 10
   powerupDuration: 10
+  timer: 0
   armorPowerupSprite: {fileID: 1524675628037375156, guid: 310b181bd9f5e424f9542770c6ed00b7, type: 3}
   hitmarkEffect: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
 --- !u!50 &2302485662196417754
