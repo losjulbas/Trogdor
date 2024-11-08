@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Audio;
-using UnityEngine.Rendering;
 
 public class SimpleAudioSource : MonoBehaviour
 {

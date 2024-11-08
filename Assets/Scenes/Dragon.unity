@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: hitpoints
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7231434134685295086, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -393,6 +397,10 @@ PrefabInstance:
     - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: hitpoints
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231434134685295086, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_SortingOrder
@@ -2205,6 +2213,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1276279005}
+        m_TargetAssemblyTypeName: SimpleAudioSource, Assembly-CSharp
+        m_MethodName: PlayEndGameSounds
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &473971098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2342,6 +2362,10 @@ PrefabInstance:
       propertyPath: hitpoints
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7245479338760863373, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.609896
@@ -2407,6 +2431,10 @@ PrefabInstance:
     - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: hitpoints
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231434134685295086, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_SortingOrder
@@ -3406,6 +3434,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724690962}
   m_CullTransparentMesh: 1
+--- !u!4 &748075626 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3822734345634938829, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+  m_PrefabInstance: {fileID: 1947052296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &754570409
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3477,11 @@ RectTransform:
   m_AnchoredPosition: {x: 52, y: -110}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &760800402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986088052304127504, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+  m_PrefabInstance: {fileID: 1947052296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &791460797
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,6 +4160,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 952486582}
     - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
+      propertyPath: dragon
+      value: 
+      objectReference: {fileID: 1321005038}
+    - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
       propertyPath: Trumpets
       value: 
       objectReference: {fileID: 8300000, guid: 449aa9c34d129e24bb8a3f9b4db94c31, type: 3}
@@ -4505,6 +4547,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008647166}
   m_CullTransparentMesh: 1
+--- !u!4 &1010105911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1148668965518762373, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+  m_PrefabInstance: {fileID: 1947052296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1017063945
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,6 +4645,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1276279005}
+        m_TargetAssemblyTypeName: SimpleAudioSource, Assembly-CSharp
+        m_MethodName: PlayEndGameSounds
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1017063948
@@ -5124,6 +5183,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056113984}
   m_CullTransparentMesh: 1
+--- !u!4 &1084269590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8889378464115430142, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+  m_PrefabInstance: {fileID: 1947052296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1088160487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5216,6 +5280,94 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   opacity: 0.4
+--- !u!114 &1097870962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097870956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e090943f9ade7924a86892993cf1b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.7
+  maxSpeed: 4
+  workingSpeed: 0
+  rotateSpeed: 80
+  leftTurn: 276
+  rightTurn: 275
+  accelerate: 273
+  smoothTurningCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  smoothStoppingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.4150944
+      outSlope: 2.4150944
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0625
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  timeAccelerating: 0
+  maxAccelerationStamina: 5
+  workingAccelerationStamina: 0
+  accelerationBlock: 0
+  tailBones:
+  - {fileID: 748075626}
+  - {fileID: 1636229968}
+  - {fileID: 1010105911}
+  - {fileID: 760800402}
+  neckBones:
+  - {fileID: 1084269590}
+  - {fileID: 1636229968}
+  - {fileID: 760800402}
+  neckSpeed: 10
+  neckMaxRotation: 13
+  tailSpeed: 5
+  tailMaxRotation: 8
+  tailWaveSpeed: 4
+  tailSegmentDifference: 5
+  tailSegmentReduction: 3
+  isCollidingWithWall: 0
 --- !u!1 &1100248039
 GameObject:
   m_ObjectHideFlags: 0
@@ -7023,6 +7175,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1276279005}
+        m_TargetAssemblyTypeName: SimpleAudioSource, Assembly-CSharp
+        m_MethodName: PlayEndGameSounds
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1464466260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7213,6 +7377,10 @@ PrefabInstance:
     - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: hitpoints
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231434134685295086, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_SortingOrder
@@ -7614,6 +7782,10 @@ PrefabInstance:
       propertyPath: hitpoints
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7231434134685295086, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -7695,6 +7867,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7245479338760863373, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
   m_PrefabInstance: {fileID: 1612628427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1636229968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7260100801873832447, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+  m_PrefabInstance: {fileID: 1947052296}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1678251297 stripped
 Transform:
@@ -7796,6 +7973,10 @@ PrefabInstance:
     - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: hitpoints
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
+      propertyPath: isVillage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4706762556279039890, guid: 2bf7946c191cc474e9576ebe5f047a93, type: 3}
       propertyPath: powerupToSpawn
@@ -9269,6 +9450,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4543511958454310406, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543511958454310406, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
       propertyPath: maxAccelerationStamina
       value: 5
       objectReference: {fileID: 0}
@@ -9336,12 +9521,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: DRAGON_v1 VARJO
       objectReference: {fileID: 0}
+    - target: {fileID: 8677635168862217153, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 933499040463310195, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
     - {fileID: 2302485662196417754, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+    - {fileID: 2057145000029440103, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+    - {fileID: 4543511958454310406, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8677635168862217153, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1097870962}
     - targetCorrespondingSourceObject: {fileID: 8677635168862217153, guid: 31a5836eb94bbf246b3793624c7eb0e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1097870957}

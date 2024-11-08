@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.InputManagerEntry;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +21,7 @@ public class GameManager : MonoBehaviour
     public AudioSource flapSource;
     public AudioSource sfx;
     public AudioSource thirdAudioSource;
+    public GameObject dragon;
 
 
     //public AudioSource gmAudioSource;
@@ -70,6 +70,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Time.timeScale = 1;
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
@@ -144,6 +145,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void RestartButton() {
+        //Destroy(dragon);
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
