@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 public class SimpleAudioSource : MonoBehaviour
 {
     public AudioSource sfx;
+    public AudioSource thirdAudiosource;
     public AudioClip Trumpets;
     public AudioClip Sheep;
     public AudioClip DragonSpitFire;
@@ -22,11 +23,8 @@ public class SimpleAudioSource : MonoBehaviour
     public void PlaySound(string ID)
     {
 
-        if (ID == "Trumpets")
-        {
-            sfx.PlayOneShot(Trumpets);
-        }
-        else if (ID == "Sheep")
+
+        if (ID == "Sheep")
         {
             sfx.PlayOneShot(Sheep);
         }
@@ -37,10 +35,6 @@ public class SimpleAudioSource : MonoBehaviour
         else if (ID == "DestroyedVillage")
         {
             sfx.PlayOneShot(DestroyedVillage);
-        }
-        else if (ID == "DeadDragon")
-        {
-            sfx.PlayOneShot(DeadDragon);
         }
         else if (ID == "CastleBell")
         {
@@ -54,10 +48,27 @@ public class SimpleAudioSource : MonoBehaviour
         {
             sfx.PlayOneShot(WizardCasting);
         }
+        else
+        {
+            Debug.LogError("Unknown audio ID" + ID);
+        }
+    }
+
+    public void PlayEndGameSounds(string ID)
+    {
+
+        if (ID == "Trumpets")
+        {
+            thirdAudiosource.PlayOneShot(Trumpets);
+        }
+        else if (ID == "DeadDragon")
+        {
+            thirdAudiosource.PlayOneShot(DeadDragon);
+        }
         else if (ID == "ButtonClick")
         {
             Debug.Log("Playing ButtonClick sound");
-            sfx.PlayOneShot(ButtonClick);
+            thirdAudiosource.PlayOneShot(ButtonClick);
         }
         else
         {

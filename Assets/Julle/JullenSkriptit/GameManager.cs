@@ -20,11 +20,14 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject creditsScreen;
     public AudioSource flapSource;
-    public AudioSource backgroundMusicSource;
-    public AudioSource gmAudioSource;
-    public AudioClip ButtonClick;
-    public AudioClip DeadDragon;
-    public AudioClip Trumpets;
+    public AudioSource sfx;
+    public AudioSource thirdAudioSource;
+
+
+    //public AudioSource gmAudioSource;
+    //public AudioClip ButtonClick;
+    //public AudioClip DeadDragon;
+    //public AudioClip Trumpets;
 
 
     private void Awake()
@@ -75,21 +78,21 @@ public class GameManager : MonoBehaviour
 
     void GameOver(bool outofLives)
     {
-
+        sfx.mute = true; // hiljennä myöhemmin, älä muteta
+        flapSource.mute = true;
         if (outofLives)
         {
-            audioSource.PlaySound("DeadDragon");
+            audioSource.PlayEndGameSounds("DeadDragon");
             gameOverText.text = "You died!\nPress R to restart";
             Debug.Log("You lost!");
         }
         else
         {
-            audioSource.PlaySound("Trumpets");
+            audioSource.PlayEndGameSounds("Trumpets");
             gameOverText.text = "You won!\nPress R to restart";
             Debug.Log("You won!");
         }
-        backgroundMusicSource.mute = true;
-        flapSource.mute = true;
+
         gameOverScreen.SetActive(true);
 
         // Calculate minutes and seconds
@@ -170,27 +173,5 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         Debug.Log("All saved data has been cleared.");
-    }
-
-    public void PlaySound(string ID)
-    {
-
-        if (ID == "Trumpets")
-        {
-            gmAudioSource.PlayOneShot(Trumpets);
-        }
-        else if (ID == "DeadDragon")
-        {
-            gmAudioSource.PlayOneShot(DeadDragon);
-        }
-        else if (ID == "ButtonClick")
-        {
-            Debug.Log("Playing ButtonClick sound");
-            gmAudioSource.PlayOneShot(ButtonClick);
-        }
-        else
-        {
-            Debug.LogError("Unknown audio ID" + ID);
-        }
     }
 }
