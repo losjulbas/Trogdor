@@ -3585,7 +3585,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: '"ButtonClick"'
+          m_StringArgument: ButtonClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &805393621
@@ -3903,7 +3903,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 28.599976, y: -30.5}
+  m_AnchoredPosition: {x: 99.6, y: -30.5}
   m_SizeDelta: {x: 89.0893, y: 25.6635}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &942096959
@@ -4316,9 +4316,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1613781818}
     - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
+      propertyPath: thirdAudiosource
+      value: 
+      objectReference: {fileID: 1276279004}
+    - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
       propertyPath: powerups.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
+      propertyPath: backgroundMusicSource
+      value: 
+      objectReference: {fileID: 952486582}
     - target: {fileID: 968081280541991512, guid: d9f7fc3892962b44da2706d1784a62cf, type: 3}
       propertyPath: 'powerups.Array.data[0]'
       value: 1

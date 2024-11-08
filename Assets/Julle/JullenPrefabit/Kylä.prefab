@@ -112,6 +112,7 @@ MonoBehaviour:
   isCastle: 0
   powerupChance: 1
   powerupToSpawn: {fileID: 1524675628037375156, guid: 310b181bd9f5e424f9542770c6ed00b7, type: 3}
+  sightDistance: 0
   healthBar: {fileID: 3833019811628407372}
 --- !u!60 &343337257824049168
 PolygonCollider2D:

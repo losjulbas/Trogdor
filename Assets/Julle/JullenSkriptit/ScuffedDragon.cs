@@ -48,7 +48,8 @@ public class ScuffedDragon : MonoBehaviour
             
             hitpoints--;
         }
-        else if (hitpoints <= 0)
+
+        if (hitpoints <= 0)
         {
             HandleDestruction();
         }

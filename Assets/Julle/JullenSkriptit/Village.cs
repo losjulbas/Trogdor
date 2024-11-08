@@ -51,7 +51,7 @@ public class Village : MonoBehaviour, IDamageable
 
         while (timer > tickTime)
         {
-            audioSource.PlaySound("ArrowTower");
+            //audioSource.PlaySound("ArrowTower");
             var newArrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
             timer -= tickTime; // “spend” one tickTime, don’t go to zero
         }

@@ -20,7 +20,12 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject creditsScreen;
     public AudioSource flapSource;
-    public AudioSource musicSource;  // Background music
+    public AudioSource backgroundMusicSource;
+    public AudioSource gmAudioSource;
+    public AudioClip ButtonClick;
+    public AudioClip DeadDragon;
+    public AudioClip Trumpets;
+
 
     private void Awake()
     {
@@ -83,7 +88,7 @@ public class GameManager : MonoBehaviour
             gameOverText.text = "You won!\nPress R to restart";
             Debug.Log("You won!");
         }
-        musicSource.mute = true;
+        backgroundMusicSource.mute = true;
         flapSource.mute = true;
         gameOverScreen.SetActive(true);
 
@@ -165,5 +170,27 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         Debug.Log("All saved data has been cleared.");
+    }
+
+    public void PlaySound(string ID)
+    {
+
+        if (ID == "Trumpets")
+        {
+            gmAudioSource.PlayOneShot(Trumpets);
+        }
+        else if (ID == "DeadDragon")
+        {
+            gmAudioSource.PlayOneShot(DeadDragon);
+        }
+        else if (ID == "ButtonClick")
+        {
+            Debug.Log("Playing ButtonClick sound");
+            gmAudioSource.PlayOneShot(ButtonClick);
+        }
+        else
+        {
+            Debug.LogError("Unknown audio ID" + ID);
+        }
     }
 }
